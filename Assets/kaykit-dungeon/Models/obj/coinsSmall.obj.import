@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de7r2lyyymdkr"
+path="res://.godot/imported/coinsSmall.obj-a7a29ac23ba96ba156c542ccf6b3bed5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coinsSmall.obj-a7a29ac23ba96ba156c542ccf6b3bed5.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/coinsSmall.obj"
+dest_files=["res://.godot/imported/coinsSmall.obj-a7a29ac23ba96ba156c542ccf6b3bed5.mesh", "res://.godot/imported/coinsSmall.obj-a7a29ac23ba96ba156c542ccf6b3bed5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

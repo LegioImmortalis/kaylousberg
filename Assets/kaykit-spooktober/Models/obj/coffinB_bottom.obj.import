@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://y8te78j6qcqu"
+path="res://.godot/imported/coffinB_bottom.obj-7e08d6ff34ebfb3d73f68cf092357818.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coffinB_bottom.obj-7e08d6ff34ebfb3d73f68cf092357818.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/coffinB_bottom.obj"
+dest_files=["res://.godot/imported/coffinB_bottom.obj-7e08d6ff34ebfb3d73f68cf092357818.mesh", "res://.godot/imported/coffinB_bottom.obj-7e08d6ff34ebfb3d73f68cf092357818.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4se563mgg4py"
+path="res://.godot/imported/target.obj-77a13bdd10a50ecd8f29ff846e5b417c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/target.obj-77a13bdd10a50ecd8f29ff846e5b417c.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/target.obj"
+dest_files=["res://.godot/imported/target.obj-77a13bdd10a50ecd8f29ff846e5b417c.mesh", "res://.godot/imported/target.obj-77a13bdd10a50ecd8f29ff846e5b417c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

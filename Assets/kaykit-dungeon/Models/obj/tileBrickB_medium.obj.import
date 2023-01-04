@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://q8ikrpb8fiyp"
+path="res://.godot/imported/tileBrickB_medium.obj-cd93eefecaa75b6f72ba1da73139f0cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileBrickB_medium.obj-cd93eefecaa75b6f72ba1da73139f0cd.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/tileBrickB_medium.obj"
+dest_files=["res://.godot/imported/tileBrickB_medium.obj-cd93eefecaa75b6f72ba1da73139f0cd.mesh", "res://.godot/imported/tileBrickB_medium.obj-cd93eefecaa75b6f72ba1da73139f0cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cpucusvrm4880"
+path="res://.godot/imported/square_rock_waterStraight.obj-96431e2a6e7410d16a64da41ea07e540.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square_rock_waterStraight.obj-96431e2a6e7410d16a64da41ea07e540.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/obj/square_rock_waterStraight.obj"
+dest_files=["res://.godot/imported/square_rock_waterStraight.obj-96431e2a6e7410d16a64da41ea07e540.mesh", "res://.godot/imported/square_rock_waterStraight.obj-96431e2a6e7410d16a64da41ea07e540.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

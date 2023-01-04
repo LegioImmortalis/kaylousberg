@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://behg6vxdgxtix"
+path="res://.godot/imported/scaffold_medium.obj-b574506f2ff1f73d256200f9ac4bda84.mesh"
+
+[deps]
+
+files=["res://.godot/imported/scaffold_medium.obj-b574506f2ff1f73d256200f9ac4bda84.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/scaffold_medium.obj"
+dest_files=["res://.godot/imported/scaffold_medium.obj-b574506f2ff1f73d256200f9ac4bda84.mesh", "res://.godot/imported/scaffold_medium.obj-b574506f2ff1f73d256200f9ac4bda84.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

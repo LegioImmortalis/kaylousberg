@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8s0vpjswljvt"
+path="res://.godot/imported/cauldron.obj-1343c42d97714a914f542d9be924b03b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cauldron.obj-1343c42d97714a914f542d9be924b03b.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/cauldron.obj"
+dest_files=["res://.godot/imported/cauldron.obj-1343c42d97714a914f542d9be924b03b.mesh", "res://.godot/imported/cauldron.obj-1343c42d97714a914f542d9be924b03b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

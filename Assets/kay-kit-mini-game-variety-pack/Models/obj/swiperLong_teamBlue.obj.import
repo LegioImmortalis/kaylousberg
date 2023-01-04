@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cj5qk314xc0ob"
+path="res://.godot/imported/swiperLong_teamBlue.obj-87a20834b2175d5a6830790f9f15411d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/swiperLong_teamBlue.obj-87a20834b2175d5a6830790f9f15411d.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/swiperLong_teamBlue.obj"
+dest_files=["res://.godot/imported/swiperLong_teamBlue.obj-87a20834b2175d5a6830790f9f15411d.mesh", "res://.godot/imported/swiperLong_teamBlue.obj-87a20834b2175d5a6830790f9f15411d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

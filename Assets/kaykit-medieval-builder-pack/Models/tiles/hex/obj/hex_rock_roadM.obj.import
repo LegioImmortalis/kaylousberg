@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bsu243rphuoih"
+path="res://.godot/imported/hex_rock_roadM.obj-84cc00e77fb964eb097185cc218eedee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hex_rock_roadM.obj-84cc00e77fb964eb097185cc218eedee.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/tiles/hex/obj/hex_rock_roadM.obj"
+dest_files=["res://.godot/imported/hex_rock_roadM.obj-84cc00e77fb964eb097185cc218eedee.mesh", "res://.godot/imported/hex_rock_roadM.obj-84cc00e77fb964eb097185cc218eedee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

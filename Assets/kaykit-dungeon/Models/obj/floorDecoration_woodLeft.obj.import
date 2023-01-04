@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmbyecsru1nw7"
+path="res://.godot/imported/floorDecoration_woodLeft.obj-895aca1346526a2e2a3780eb87ac8b24.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorDecoration_woodLeft.obj-895aca1346526a2e2a3780eb87ac8b24.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/floorDecoration_woodLeft.obj"
+dest_files=["res://.godot/imported/floorDecoration_woodLeft.obj-895aca1346526a2e2a3780eb87ac8b24.mesh", "res://.godot/imported/floorDecoration_woodLeft.obj-895aca1346526a2e2a3780eb87ac8b24.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

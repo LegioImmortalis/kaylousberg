@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dtp01picriov1"
+path="res://.godot/imported/bench.obj-88e814897093c4859b3f2463041b27dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bench.obj-88e814897093c4859b3f2463041b27dd.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/bench.obj"
+dest_files=["res://.godot/imported/bench.obj-88e814897093c4859b3f2463041b27dd.mesh", "res://.godot/imported/bench.obj-88e814897093c4859b3f2463041b27dd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

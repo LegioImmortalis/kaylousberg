@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de47fh14oxbhw"
+path="res://.godot/imported/stairs_wide.obj-911573e90ed47c593be4daf9a9392f6c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stairs_wide.obj-911573e90ed47c593be4daf9a9392f6c.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/stairs_wide.obj"
+dest_files=["res://.godot/imported/stairs_wide.obj-911573e90ed47c593be4daf9a9392f6c.mesh", "res://.godot/imported/stairs_wide.obj-911573e90ed47c593be4daf9a9392f6c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

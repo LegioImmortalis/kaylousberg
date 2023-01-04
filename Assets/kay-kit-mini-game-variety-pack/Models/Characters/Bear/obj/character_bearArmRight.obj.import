@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3ijnohoog48"
+path="res://.godot/imported/character_bearArmRight.obj-1bb0576c7c38de5fd81a85329974a906.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_bearArmRight.obj-1bb0576c7c38de5fd81a85329974a906.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/Characters/Bear/obj/character_bearArmRight.obj"
+dest_files=["res://.godot/imported/character_bearArmRight.obj-1bb0576c7c38de5fd81a85329974a906.mesh", "res://.godot/imported/character_bearArmRight.obj-1bb0576c7c38de5fd81a85329974a906.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

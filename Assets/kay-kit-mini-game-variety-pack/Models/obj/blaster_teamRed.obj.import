@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3rl2f6f0odvn"
+path="res://.godot/imported/blaster_teamRed.obj-ff3a7be22247929b61a5b3110bec65eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blaster_teamRed.obj-ff3a7be22247929b61a5b3110bec65eb.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/blaster_teamRed.obj"
+dest_files=["res://.godot/imported/blaster_teamRed.obj-ff3a7be22247929b61a5b3110bec65eb.mesh", "res://.godot/imported/blaster_teamRed.obj-ff3a7be22247929b61a5b3110bec65eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

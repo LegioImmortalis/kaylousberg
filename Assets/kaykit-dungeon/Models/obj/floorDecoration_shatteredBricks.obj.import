@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cl3rpq5ekw3s4"
+path="res://.godot/imported/floorDecoration_shatteredBricks.obj-19ac24646db00949d6181780f58a30ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorDecoration_shatteredBricks.obj-19ac24646db00949d6181780f58a30ce.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/floorDecoration_shatteredBricks.obj"
+dest_files=["res://.godot/imported/floorDecoration_shatteredBricks.obj-19ac24646db00949d6181780f58a30ce.mesh", "res://.godot/imported/floorDecoration_shatteredBricks.obj-19ac24646db00949d6181780f58a30ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkeinw4n7d4uh"
+path="res://.godot/imported/bricks.obj-d1339b77de914fc9797aa58ac1287039.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bricks.obj-d1339b77de914fc9797aa58ac1287039.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/bricks.obj"
+dest_files=["res://.godot/imported/bricks.obj-d1339b77de914fc9797aa58ac1287039.mesh", "res://.godot/imported/bricks.obj-d1339b77de914fc9797aa58ac1287039.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctla53us1srx8"
+path="res://.godot/imported/pumpkinSmall.obj-574406de7c309c86515b669dc9b23371.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pumpkinSmall.obj-574406de7c309c86515b669dc9b23371.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/pumpkinSmall.obj"
+dest_files=["res://.godot/imported/pumpkinSmall.obj-574406de7c309c86515b669dc9b23371.mesh", "res://.godot/imported/pumpkinSmall.obj-574406de7c309c86515b669dc9b23371.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

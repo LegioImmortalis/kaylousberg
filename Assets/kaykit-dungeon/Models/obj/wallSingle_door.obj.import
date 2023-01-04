@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cv32ic4b76tdj"
+path="res://.godot/imported/wallSingle_door.obj-fe6aa9a23f5781c40f92c6e0cbb78105.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallSingle_door.obj-fe6aa9a23f5781c40f92c6e0cbb78105.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/wallSingle_door.obj"
+dest_files=["res://.godot/imported/wallSingle_door.obj-fe6aa9a23f5781c40f92c6e0cbb78105.mesh", "res://.godot/imported/wallSingle_door.obj-fe6aa9a23f5781c40f92c6e0cbb78105.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

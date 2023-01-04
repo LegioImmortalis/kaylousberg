@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvarcv6rjv466"
+path="res://.godot/imported/tileSlopeLowHigh_forest.obj-1139467b53074d8de500e4d192825bc8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSlopeLowHigh_forest.obj-1139467b53074d8de500e4d192825bc8.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/tileSlopeLowHigh_forest.obj"
+dest_files=["res://.godot/imported/tileSlopeLowHigh_forest.obj-1139467b53074d8de500e4d192825bc8.mesh", "res://.godot/imported/tileSlopeLowHigh_forest.obj-1139467b53074d8de500e4d192825bc8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

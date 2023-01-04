@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmqqgijcsbmle"
+path="res://.godot/imported/house.obj-89111321047616b2627a78414540174e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/house.obj-89111321047616b2627a78414540174e.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/objects/obj/house.obj"
+dest_files=["res://.godot/imported/house.obj-89111321047616b2627a78414540174e.mesh", "res://.godot/imported/house.obj-89111321047616b2627a78414540174e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dd2yi2oi8tge0"
+path="res://.godot/imported/square_sand.obj-1169fe071d6ff1850873634d592602bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square_sand.obj-1169fe071d6ff1850873634d592602bb.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/obj/square_sand.obj"
+dest_files=["res://.godot/imported/square_sand.obj-1169fe071d6ff1850873634d592602bb.mesh", "res://.godot/imported/square_sand.obj-1169fe071d6ff1850873634d592602bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

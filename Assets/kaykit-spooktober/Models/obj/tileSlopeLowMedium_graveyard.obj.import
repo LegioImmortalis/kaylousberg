@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmi7vnte1ngan"
+path="res://.godot/imported/tileSlopeLowMedium_graveyard.obj-15725b5ea4c4f6ab3b1d9a0088a28f15.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSlopeLowMedium_graveyard.obj-15725b5ea4c4f6ab3b1d9a0088a28f15.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/tileSlopeLowMedium_graveyard.obj"
+dest_files=["res://.godot/imported/tileSlopeLowMedium_graveyard.obj-15725b5ea4c4f6ab3b1d9a0088a28f15.mesh", "res://.godot/imported/tileSlopeLowMedium_graveyard.obj-15725b5ea4c4f6ab3b1d9a0088a28f15.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

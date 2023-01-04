@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bbk75op2nw6b1"
+path="res://.godot/imported/bookcaseWide_broken.obj-3babc205a6b259ea043d6a111b756e5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bookcaseWide_broken.obj-3babc205a6b259ea043d6a111b756e5f.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/bookcaseWide_broken.obj"
+dest_files=["res://.godot/imported/bookcaseWide_broken.obj-3babc205a6b259ea043d6a111b756e5f.mesh", "res://.godot/imported/bookcaseWide_broken.obj-3babc205a6b259ea043d6a111b756e5f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

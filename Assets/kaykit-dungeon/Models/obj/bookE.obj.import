@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5dkk4tirkg22"
+path="res://.godot/imported/bookE.obj-4b18960c58a2ccf697f8fcaa2004aa36.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bookE.obj-4b18960c58a2ccf697f8fcaa2004aa36.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/bookE.obj"
+dest_files=["res://.godot/imported/bookE.obj-4b18960c58a2ccf697f8fcaa2004aa36.mesh", "res://.godot/imported/bookE.obj-4b18960c58a2ccf697f8fcaa2004aa36.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

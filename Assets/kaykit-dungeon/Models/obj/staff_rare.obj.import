@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doo4fq4dg6hft"
+path="res://.godot/imported/staff_rare.obj-875bbdd39e0074eb1c4de30256b4daea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/staff_rare.obj-875bbdd39e0074eb1c4de30256b4daea.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/staff_rare.obj"
+dest_files=["res://.godot/imported/staff_rare.obj-875bbdd39e0074eb1c4de30256b4daea.mesh", "res://.godot/imported/staff_rare.obj-875bbdd39e0074eb1c4de30256b4daea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8p54huvt7c5u"
+path="res://.godot/imported/tileSlopeLowHigh_teamBlue.obj-f7eb712806ab6e546ee564ada0add8ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSlopeLowHigh_teamBlue.obj-f7eb712806ab6e546ee564ada0add8ca.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/tileSlopeLowHigh_teamBlue.obj"
+dest_files=["res://.godot/imported/tileSlopeLowHigh_teamBlue.obj-f7eb712806ab6e546ee564ada0add8ca.mesh", "res://.godot/imported/tileSlopeLowHigh_teamBlue.obj-f7eb712806ab6e546ee564ada0add8ca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

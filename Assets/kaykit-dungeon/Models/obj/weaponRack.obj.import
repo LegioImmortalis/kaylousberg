@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnt0apmf45l38"
+path="res://.godot/imported/weaponRack.obj-e6149097021b1298bbd7bce3ac186059.mesh"
+
+[deps]
+
+files=["res://.godot/imported/weaponRack.obj-e6149097021b1298bbd7bce3ac186059.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/weaponRack.obj"
+dest_files=["res://.godot/imported/weaponRack.obj-e6149097021b1298bbd7bce3ac186059.mesh", "res://.godot/imported/weaponRack.obj-e6149097021b1298bbd7bce3ac186059.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

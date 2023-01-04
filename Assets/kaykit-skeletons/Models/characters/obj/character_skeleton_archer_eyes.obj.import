@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3ugpcnig0jw8"
+path="res://.godot/imported/character_skeleton_archer_eyes.obj-4902a2977e4c0091701d53cb89aad2c1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_archer_eyes.obj-4902a2977e4c0091701d53cb89aad2c1.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_archer_eyes.obj"
+dest_files=["res://.godot/imported/character_skeleton_archer_eyes.obj-4902a2977e4c0091701d53cb89aad2c1.mesh", "res://.godot/imported/character_skeleton_archer_eyes.obj-4902a2977e4c0091701d53cb89aad2c1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

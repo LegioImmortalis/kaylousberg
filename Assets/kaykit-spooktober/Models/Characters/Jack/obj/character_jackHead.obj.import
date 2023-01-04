@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bug8ycwwu3bvu"
+path="res://.godot/imported/character_jackHead.obj-66c7200e8b6b9c4a003d35a0e8c84c51.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_jackHead.obj-66c7200e8b6b9c4a003d35a0e8c84c51.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/Characters/Jack/obj/character_jackHead.obj"
+dest_files=["res://.godot/imported/character_jackHead.obj-66c7200e8b6b9c4a003d35a0e8c84c51.mesh", "res://.godot/imported/character_jackHead.obj-66c7200e8b6b9c4a003d35a0e8c84c51.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

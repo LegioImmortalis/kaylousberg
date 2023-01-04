@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgcfwjfyeltv4"
+path="res://.godot/imported/character_skeleton_archer_armLeft_broken.obj-26759f6898499a41e8d5b874c3b63be9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_archer_armLeft_broken.obj-26759f6898499a41e8d5b874c3b63be9.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_archer_armLeft_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_archer_armLeft_broken.obj-26759f6898499a41e8d5b874c3b63be9.mesh", "res://.godot/imported/character_skeleton_archer_armLeft_broken.obj-26759f6898499a41e8d5b874c3b63be9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

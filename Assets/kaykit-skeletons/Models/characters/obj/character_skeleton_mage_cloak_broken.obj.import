@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ewqayvo52doa"
+path="res://.godot/imported/character_skeleton_mage_cloak_broken.obj-66a9e08d6b4a376cc0ae3dd97fb410ef.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_mage_cloak_broken.obj-66a9e08d6b4a376cc0ae3dd97fb410ef.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_mage_cloak_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_mage_cloak_broken.obj-66a9e08d6b4a376cc0ae3dd97fb410ef.mesh", "res://.godot/imported/character_skeleton_mage_cloak_broken.obj-66a9e08d6b4a376cc0ae3dd97fb410ef.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctxefte3kx4a"
+path="res://.godot/imported/PrototypePete_body.obj-26dafa60352a8db0617712422d684f32.mesh"
+
+[deps]
+
+files=["res://.godot/imported/PrototypePete_body.obj-26dafa60352a8db0617712422d684f32.mesh"]
+
+source_file="res://Assets/kaykit-animations/Models/obj/PrototypePete_body.obj"
+dest_files=["res://.godot/imported/PrototypePete_body.obj-26dafa60352a8db0617712422d684f32.mesh", "res://.godot/imported/PrototypePete_body.obj-26dafa60352a8db0617712422d684f32.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

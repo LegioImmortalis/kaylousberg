@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bah24uuv7qks1"
+path="res://.godot/imported/skeleton_helmet.obj-cea8a1a50c07fdaef99e02a1bb83c6ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/skeleton_helmet.obj-cea8a1a50c07fdaef99e02a1bb83c6ee.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/skeleton_helmet.obj"
+dest_files=["res://.godot/imported/skeleton_helmet.obj-cea8a1a50c07fdaef99e02a1bb83c6ee.mesh", "res://.godot/imported/skeleton_helmet.obj-cea8a1a50c07fdaef99e02a1bb83c6ee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

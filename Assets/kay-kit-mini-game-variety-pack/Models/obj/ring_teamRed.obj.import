@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0l6vgjog0qc6"
+path="res://.godot/imported/ring_teamRed.obj-20a527a85abcebd3bbb5208d6b8688dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ring_teamRed.obj-20a527a85abcebd3bbb5208d6b8688dd.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/ring_teamRed.obj"
+dest_files=["res://.godot/imported/ring_teamRed.obj-20a527a85abcebd3bbb5208d6b8688dd.mesh", "res://.godot/imported/ring_teamRed.obj-20a527a85abcebd3bbb5208d6b8688dd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

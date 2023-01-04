@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cppactqt7plo0"
+path="res://.godot/imported/treeC_graveyard.obj-411f6b5a01c4a419a26c764400d080ae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/treeC_graveyard.obj-411f6b5a01c4a419a26c764400d080ae.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/treeC_graveyard.obj"
+dest_files=["res://.godot/imported/treeC_graveyard.obj-411f6b5a01c4a419a26c764400d080ae.mesh", "res://.godot/imported/treeC_graveyard.obj-411f6b5a01c4a419a26c764400d080ae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

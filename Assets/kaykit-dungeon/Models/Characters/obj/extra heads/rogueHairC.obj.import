@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6g0vnwc8f8hj"
+path="res://.godot/imported/rogueHairC.obj-90700010a04a6b1e56cff7d2471fb1ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rogueHairC.obj-90700010a04a6b1e56cff7d2471fb1ca.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/Characters/obj/extra heads/rogueHairC.obj"
+dest_files=["res://.godot/imported/rogueHairC.obj-90700010a04a6b1e56cff7d2471fb1ca.mesh", "res://.godot/imported/rogueHairC.obj-90700010a04a6b1e56cff7d2471fb1ca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

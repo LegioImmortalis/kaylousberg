@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cg6rh7fboby33"
+path="res://.godot/imported/tileSpikes.obj-e58193ded97993ad147e955d9aac46d9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSpikes.obj-e58193ded97993ad147e955d9aac46d9.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/tileSpikes.obj"
+dest_files=["res://.godot/imported/tileSpikes.obj-e58193ded97993ad147e955d9aac46d9.mesh", "res://.godot/imported/tileSpikes.obj-e58193ded97993ad147e955d9aac46d9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

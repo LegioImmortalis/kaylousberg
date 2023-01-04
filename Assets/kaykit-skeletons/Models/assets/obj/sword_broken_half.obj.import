@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgwkjua5qg7fl"
+path="res://.godot/imported/sword_broken_half.obj-3a29405b67f42e17f2da2ab2ab0edad8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sword_broken_half.obj-3a29405b67f42e17f2da2ab2ab0edad8.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/sword_broken_half.obj"
+dest_files=["res://.godot/imported/sword_broken_half.obj-3a29405b67f42e17f2da2ab2ab0edad8.mesh", "res://.godot/imported/sword_broken_half.obj-3a29405b67f42e17f2da2ab2ab0edad8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

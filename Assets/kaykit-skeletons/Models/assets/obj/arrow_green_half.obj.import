@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5cyogge5rwmk"
+path="res://.godot/imported/arrow_green_half.obj-793eae80a525889cdc86ea02bb8d38a9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/arrow_green_half.obj-793eae80a525889cdc86ea02bb8d38a9.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/arrow_green_half.obj"
+dest_files=["res://.godot/imported/arrow_green_half.obj-793eae80a525889cdc86ea02bb8d38a9.mesh", "res://.godot/imported/arrow_green_half.obj-793eae80a525889cdc86ea02bb8d38a9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

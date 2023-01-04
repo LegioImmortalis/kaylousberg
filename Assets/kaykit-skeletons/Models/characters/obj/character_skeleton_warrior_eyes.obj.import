@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhyp4yirpxubr"
+path="res://.godot/imported/character_skeleton_warrior_eyes.obj-0b5848032e2296e3ca23f7173a7fc58d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_warrior_eyes.obj-0b5848032e2296e3ca23f7173a7fc58d.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_warrior_eyes.obj"
+dest_files=["res://.godot/imported/character_skeleton_warrior_eyes.obj-0b5848032e2296e3ca23f7173a7fc58d.mesh", "res://.godot/imported/character_skeleton_warrior_eyes.obj-0b5848032e2296e3ca23f7173a7fc58d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

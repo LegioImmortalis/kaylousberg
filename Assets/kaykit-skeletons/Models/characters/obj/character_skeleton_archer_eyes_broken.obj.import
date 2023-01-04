@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c21roq2ohbgof"
+path="res://.godot/imported/character_skeleton_archer_eyes_broken.obj-d56843adb125c581da36e792de9ddc62.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_archer_eyes_broken.obj-d56843adb125c581da36e792de9ddc62.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_archer_eyes_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_archer_eyes_broken.obj-d56843adb125c581da36e792de9ddc62.mesh", "res://.godot/imported/character_skeleton_archer_eyes_broken.obj-d56843adb125c581da36e792de9ddc62.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

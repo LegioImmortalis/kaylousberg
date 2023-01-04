@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dp38mqti1788x"
+path="res://.godot/imported/heart_teamRed.obj-48d70b5a4de90f48f80a73f457474c5a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/heart_teamRed.obj-48d70b5a4de90f48f80a73f457474c5a.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/heart_teamRed.obj"
+dest_files=["res://.godot/imported/heart_teamRed.obj-48d70b5a4de90f48f80a73f457474c5a.mesh", "res://.godot/imported/heart_teamRed.obj-48d70b5a4de90f48f80a73f457474c5a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

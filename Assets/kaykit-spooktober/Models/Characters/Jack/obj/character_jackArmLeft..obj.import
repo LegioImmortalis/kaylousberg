@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://mcqfalsf5m3g"
+path="res://.godot/imported/character_jackArmLeft..obj-85943f51d97142bea16fef6df7a4b7e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_jackArmLeft..obj-85943f51d97142bea16fef6df7a4b7e3.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/Characters/Jack/obj/character_jackArmLeft..obj"
+dest_files=["res://.godot/imported/character_jackArmLeft..obj-85943f51d97142bea16fef6df7a4b7e3.mesh", "res://.godot/imported/character_jackArmLeft..obj-85943f51d97142bea16fef6df7a4b7e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

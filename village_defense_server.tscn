@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://oyore1fxnqdk"]
+
+[ext_resource type="Script" path="res://server.gd" id="1_31nb7"]
+[ext_resource type="PackedScene" uid="uid://crpx12f67u3pt" path="res://Village/village.tscn" id="5_ktu8k"]
+
+[sub_resource type="Environment" id="Environment_dbbf6"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_rop3y"]
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_0pcck"]
+properties/0/path = NodePath(".")
+properties/0/spawn = true
+properties/0/sync = true
+
+[node name="VillageDefense" type="Node"]
+script = ExtResource("1_31nb7")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Village" parent="." instance=ExtResource("5_ktu8k")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_dbbf6")
+camera_attributes = SubResource("CameraAttributesPractical_rop3y")
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://Player/player.tscn")
+spawn_path = NodePath(".")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_0pcck")

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dngjfgp8pi3uf"
+path="res://.godot/imported/ball_teamYellow.obj-5f5d4f0091ddd4bdaab3fd2ae7dd2471.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ball_teamYellow.obj-5f5d4f0091ddd4bdaab3fd2ae7dd2471.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/ball_teamYellow.obj"
+dest_files=["res://.godot/imported/ball_teamYellow.obj-5f5d4f0091ddd4bdaab3fd2ae7dd2471.mesh", "res://.godot/imported/ball_teamYellow.obj-5f5d4f0091ddd4bdaab3fd2ae7dd2471.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

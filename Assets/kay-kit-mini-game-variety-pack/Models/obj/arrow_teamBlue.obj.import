@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8c6rhma85x0h"
+path="res://.godot/imported/arrow_teamBlue.obj-ae8a502b0c394176c28aed55db44074e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/arrow_teamBlue.obj-ae8a502b0c394176c28aed55db44074e.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/arrow_teamBlue.obj"
+dest_files=["res://.godot/imported/arrow_teamBlue.obj-ae8a502b0c394176c28aed55db44074e.mesh", "res://.godot/imported/arrow_teamBlue.obj-ae8a502b0c394176c28aed55db44074e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjqovh0jxus18"
+path="res://.godot/imported/character_skeleton_mage_armRight_broken.obj-385cba5315d645d81a1ce28addc9d6dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_mage_armRight_broken.obj-385cba5315d645d81a1ce28addc9d6dc.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_mage_armRight_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_mage_armRight_broken.obj-385cba5315d645d81a1ce28addc9d6dc.mesh", "res://.godot/imported/character_skeleton_mage_armRight_broken.obj-385cba5315d645d81a1ce28addc9d6dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

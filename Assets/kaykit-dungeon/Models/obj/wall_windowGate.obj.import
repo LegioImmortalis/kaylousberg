@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cl7qvokd6wf8a"
+path="res://.godot/imported/wall_windowGate.obj-0edffed8bd0b0a5b9ed994b41849ef58.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_windowGate.obj-0edffed8bd0b0a5b9ed994b41849ef58.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/wall_windowGate.obj"
+dest_files=["res://.godot/imported/wall_windowGate.obj-0edffed8bd0b0a5b9ed994b41849ef58.mesh", "res://.godot/imported/wall_windowGate.obj-0edffed8bd0b0a5b9ed994b41849ef58.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

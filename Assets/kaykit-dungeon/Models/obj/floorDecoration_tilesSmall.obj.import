@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddqoovxfhjco0"
+path="res://.godot/imported/floorDecoration_tilesSmall.obj-b1d4c280127a7c2996713c169e1f5953.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorDecoration_tilesSmall.obj-b1d4c280127a7c2996713c169e1f5953.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/floorDecoration_tilesSmall.obj"
+dest_files=["res://.godot/imported/floorDecoration_tilesSmall.obj-b1d4c280127a7c2996713c169e1f5953.mesh", "res://.godot/imported/floorDecoration_tilesSmall.obj-b1d4c280127a7c2996713c169e1f5953.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

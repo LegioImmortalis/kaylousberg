@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8wvgym54gmci"
+path="res://.godot/imported/pathCobbled.obj-f850b6628ef0b1c781a19cd7b0305f82.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pathCobbled.obj-f850b6628ef0b1c781a19cd7b0305f82.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/pathCobbled.obj"
+dest_files=["res://.godot/imported/pathCobbled.obj-f850b6628ef0b1c781a19cd7b0305f82.mesh", "res://.godot/imported/pathCobbled.obj-f850b6628ef0b1c781a19cd7b0305f82.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dttursgux6rw4"
+path="res://.godot/imported/character_skeleton_archer_armRight.obj-10a7992adeea1d1353d60a9efc1abdca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_archer_armRight.obj-10a7992adeea1d1353d60a9efc1abdca.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_archer_armRight.obj"
+dest_files=["res://.godot/imported/character_skeleton_archer_armRight.obj-10a7992adeea1d1353d60a9efc1abdca.mesh", "res://.godot/imported/character_skeleton_archer_armRight.obj-10a7992adeea1d1353d60a9efc1abdca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

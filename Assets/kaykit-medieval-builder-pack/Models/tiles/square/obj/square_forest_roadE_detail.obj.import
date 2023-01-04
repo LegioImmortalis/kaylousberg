@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vea1wgyc60g1"
+path="res://.godot/imported/square_forest_roadE_detail.obj-bba8310e8ddefab626a96adf40d52e2d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square_forest_roadE_detail.obj-bba8310e8ddefab626a96adf40d52e2d.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/obj/square_forest_roadE_detail.obj"
+dest_files=["res://.godot/imported/square_forest_roadE_detail.obj-bba8310e8ddefab626a96adf40d52e2d.mesh", "res://.godot/imported/square_forest_roadE_detail.obj-bba8310e8ddefab626a96adf40d52e2d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://wrkh6ya4b04d"]
+
+[ext_resource type="PackedScene" uid="uid://ck0d8dd76gvsw" path="res://Assets/kaykit-skeletons/Models/characters/dae/character_skeleton_warrior_broken.dae" id="1_sqj1c"]
+
+[node name="character_skeleton_warrior_broken" instance=ExtResource("1_sqj1c")]

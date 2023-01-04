@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdga1pbujbmrp"
+path="res://.godot/imported/character_witchHead.obj-de72c6b3434f5c1d7f2fff196e84f033.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_witchHead.obj-de72c6b3434f5c1d7f2fff196e84f033.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/Characters/Witch/obj/character_witchHead.obj"
+dest_files=["res://.godot/imported/character_witchHead.obj-de72c6b3434f5c1d7f2fff196e84f033.mesh", "res://.godot/imported/character_witchHead.obj-de72c6b3434f5c1d7f2fff196e84f033.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

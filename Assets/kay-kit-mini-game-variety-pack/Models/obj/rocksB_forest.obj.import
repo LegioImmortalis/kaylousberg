@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drie7ek0w5ug0"
+path="res://.godot/imported/rocksB_forest.obj-1eacade629e65f27e5460ee593f12713.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rocksB_forest.obj-1eacade629e65f27e5460ee593f12713.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/rocksB_forest.obj"
+dest_files=["res://.godot/imported/rocksB_forest.obj-1eacade629e65f27e5460ee593f12713.mesh", "res://.godot/imported/rocksB_forest.obj-1eacade629e65f27e5460ee593f12713.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

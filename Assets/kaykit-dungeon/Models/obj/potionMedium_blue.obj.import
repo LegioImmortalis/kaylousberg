@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cn5yf1wvghh0h"
+path="res://.godot/imported/potionMedium_blue.obj-9564d89c4c51cf4a6aa020a31f3b531f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/potionMedium_blue.obj-9564d89c4c51cf4a6aa020a31f3b531f.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/potionMedium_blue.obj"
+dest_files=["res://.godot/imported/potionMedium_blue.obj-9564d89c4c51cf4a6aa020a31f3b531f.mesh", "res://.godot/imported/potionMedium_blue.obj-9564d89c4c51cf4a6aa020a31f3b531f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

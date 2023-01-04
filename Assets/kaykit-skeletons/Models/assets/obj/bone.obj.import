@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjmmcdagdo6sl"
+path="res://.godot/imported/bone.obj-d2bea9fb467e02b46cc8d55388e0a624.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bone.obj-d2bea9fb467e02b46cc8d55388e0a624.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/bone.obj"
+dest_files=["res://.godot/imported/bone.obj-d2bea9fb467e02b46cc8d55388e0a624.mesh", "res://.godot/imported/bone.obj-d2bea9fb467e02b46cc8d55388e0a624.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

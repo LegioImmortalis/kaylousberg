@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://by2yk5jomo3cv"
+path="res://.godot/imported/dagger_rare.obj-28b75d28c56cb8200f2585a7ac619223.mesh"
+
+[deps]
+
+files=["res://.godot/imported/dagger_rare.obj-28b75d28c56cb8200f2585a7ac619223.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/dagger_rare.obj"
+dest_files=["res://.godot/imported/dagger_rare.obj-28b75d28c56cb8200f2585a7ac619223.mesh", "res://.godot/imported/dagger_rare.obj-28b75d28c56cb8200f2585a7ac619223.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

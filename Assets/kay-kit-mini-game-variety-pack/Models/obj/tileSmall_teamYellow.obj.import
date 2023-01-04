@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvqglbmccrq7e"
+path="res://.godot/imported/tileSmall_teamYellow.obj-6b0a2eb7c3197cd1b6ea90529715c1df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileSmall_teamYellow.obj-6b0a2eb7c3197cd1b6ea90529715c1df.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/tileSmall_teamYellow.obj"
+dest_files=["res://.godot/imported/tileSmall_teamYellow.obj-6b0a2eb7c3197cd1b6ea90529715c1df.mesh", "res://.godot/imported/tileSmall_teamYellow.obj-6b0a2eb7c3197cd1b6ea90529715c1df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

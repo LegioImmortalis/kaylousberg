@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8pu0bqu1upbl"
+path="res://.godot/imported/character_duckArmRight.obj-8670f206c69bad327cfcf6b29b811cce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_duckArmRight.obj-8670f206c69bad327cfcf6b29b811cce.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/Characters/Duck/obj/character_duckArmRight.obj"
+dest_files=["res://.godot/imported/character_duckArmRight.obj-8670f206c69bad327cfcf6b29b811cce.mesh", "res://.godot/imported/character_duckArmRight.obj-8670f206c69bad327cfcf6b29b811cce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

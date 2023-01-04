@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkkmo86vyi5h5"
+path="res://.godot/imported/character_witchArmRight.obj-57d7df48f2f9ad42d714ec9041ca6088.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_witchArmRight.obj-57d7df48f2f9ad42d714ec9041ca6088.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/Characters/Witch/obj/character_witchArmRight.obj"
+dest_files=["res://.godot/imported/character_witchArmRight.obj-57d7df48f2f9ad42d714ec9041ca6088.mesh", "res://.godot/imported/character_witchArmRight.obj-57d7df48f2f9ad42d714ec9041ca6088.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vj3cagtev32v"
+path="res://.godot/imported/character_mageArmRight.obj-adf35183f67902c9eefae1dc4828b251.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_mageArmRight.obj-adf35183f67902c9eefae1dc4828b251.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/Characters/obj/character_mageArmRight.obj"
+dest_files=["res://.godot/imported/character_mageArmRight.obj-adf35183f67902c9eefae1dc4828b251.mesh", "res://.godot/imported/character_mageArmRight.obj-adf35183f67902c9eefae1dc4828b251.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

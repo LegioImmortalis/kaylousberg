@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://viag326rojgj"
+path="res://.godot/imported/character_skeleton_mage_cowl.obj-ae8f4de396f2c3f645c92a8d13a5a2be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_mage_cowl.obj-ae8f4de396f2c3f645c92a8d13a5a2be.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_mage_cowl.obj"
+dest_files=["res://.godot/imported/character_skeleton_mage_cowl.obj-ae8f4de396f2c3f645c92a8d13a5a2be.mesh", "res://.godot/imported/character_skeleton_mage_cowl.obj-ae8f4de396f2c3f645c92a8d13a5a2be.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

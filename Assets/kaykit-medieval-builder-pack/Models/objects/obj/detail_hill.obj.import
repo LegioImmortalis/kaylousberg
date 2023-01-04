@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bs78v7l3p2hn7"
+path="res://.godot/imported/detail_hill.obj-82e291ad9ac783b4f7296b9bad5507cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_hill.obj-82e291ad9ac783b4f7296b9bad5507cd.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/objects/obj/detail_hill.obj"
+dest_files=["res://.godot/imported/detail_hill.obj-82e291ad9ac783b4f7296b9bad5507cd.mesh", "res://.godot/imported/detail_hill.obj-82e291ad9ac783b4f7296b9bad5507cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0eidbj8u2fc7"
+path="res://.godot/imported/barrierStrut.obj-5189f28598d4064019b152a8c3bf455a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/barrierStrut.obj-5189f28598d4064019b152a8c3bf455a.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/barrierStrut.obj"
+dest_files=["res://.godot/imported/barrierStrut.obj-5189f28598d4064019b152a8c3bf455a.mesh", "res://.godot/imported/barrierStrut.obj-5189f28598d4064019b152a8c3bf455a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

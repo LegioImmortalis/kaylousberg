@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3dhw3xwhf775"
+path="res://.godot/imported/character_skeleton_minion_armLeft_broken.obj-eda8215ecd6d300d7bf4b06fa53d965a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_minion_armLeft_broken.obj-eda8215ecd6d300d7bf4b06fa53d965a.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_minion_armLeft_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_minion_armLeft_broken.obj-eda8215ecd6d300d7bf4b06fa53d965a.mesh", "res://.godot/imported/character_skeleton_minion_armLeft_broken.obj-eda8215ecd6d300d7bf4b06fa53d965a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

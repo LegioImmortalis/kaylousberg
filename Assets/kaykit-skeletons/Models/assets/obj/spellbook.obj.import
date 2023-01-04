@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpwsgioq7tir2"
+path="res://.godot/imported/spellbook.obj-864155468b55260cbf009750564be969.mesh"
+
+[deps]
+
+files=["res://.godot/imported/spellbook.obj-864155468b55260cbf009750564be969.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/spellbook.obj"
+dest_files=["res://.godot/imported/spellbook.obj-864155468b55260cbf009750564be969.mesh", "res://.godot/imported/spellbook.obj-864155468b55260cbf009750564be969.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

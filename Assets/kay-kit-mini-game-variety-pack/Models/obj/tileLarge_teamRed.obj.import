@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgwp4173d567i"
+path="res://.godot/imported/tileLarge_teamRed.obj-3bea6d2c7a87ca44f43fd8461d373ebb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileLarge_teamRed.obj-3bea6d2c7a87ca44f43fd8461d373ebb.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/tileLarge_teamRed.obj"
+dest_files=["res://.godot/imported/tileLarge_teamRed.obj-3bea6d2c7a87ca44f43fd8461d373ebb.mesh", "res://.godot/imported/tileLarge_teamRed.obj-3bea6d2c7a87ca44f43fd8461d373ebb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

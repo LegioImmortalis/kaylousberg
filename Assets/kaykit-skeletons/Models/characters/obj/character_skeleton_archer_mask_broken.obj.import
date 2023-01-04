@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpqi1b4ndi02j"
+path="res://.godot/imported/character_skeleton_archer_mask_broken.obj-a706e8ce1c53805fda8fe01c1fa32c6e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_archer_mask_broken.obj-a706e8ce1c53805fda8fe01c1fa32c6e.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_archer_mask_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_archer_mask_broken.obj-a706e8ce1c53805fda8fe01c1fa32c6e.mesh", "res://.godot/imported/character_skeleton_archer_mask_broken.obj-a706e8ce1c53805fda8fe01c1fa32c6e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

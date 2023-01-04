@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://g2xrmf61m3rw"
+path="res://.godot/imported/pots.obj-cad59077ce68d7cc28ff0cf588315fd2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pots.obj-cad59077ce68d7cc28ff0cf588315fd2.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/pots.obj"
+dest_files=["res://.godot/imported/pots.obj-cad59077ce68d7cc28ff0cf588315fd2.mesh", "res://.godot/imported/pots.obj-cad59077ce68d7cc28ff0cf588315fd2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

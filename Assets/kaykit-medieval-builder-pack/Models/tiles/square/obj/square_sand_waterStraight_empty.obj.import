@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://coydu20ygw63c"
+path="res://.godot/imported/square_sand_waterStraight_empty.obj-624397535907f0f0ab0fdd7c4971863f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square_sand_waterStraight_empty.obj-624397535907f0f0ab0fdd7c4971863f.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/obj/square_sand_waterStraight_empty.obj"
+dest_files=["res://.godot/imported/square_sand_waterStraight_empty.obj-624397535907f0f0ab0fdd7c4971863f.mesh", "res://.godot/imported/square_sand_waterStraight_empty.obj-624397535907f0f0ab0fdd7c4971863f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

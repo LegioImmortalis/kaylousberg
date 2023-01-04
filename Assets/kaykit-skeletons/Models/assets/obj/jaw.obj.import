@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cn1nu0sxu162p"
+path="res://.godot/imported/jaw.obj-1f1dff770071df3a541dea592c405223.mesh"
+
+[deps]
+
+files=["res://.godot/imported/jaw.obj-1f1dff770071df3a541dea592c405223.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/jaw.obj"
+dest_files=["res://.godot/imported/jaw.obj-1f1dff770071df3a541dea592c405223.mesh", "res://.godot/imported/jaw.obj-1f1dff770071df3a541dea592c405223.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

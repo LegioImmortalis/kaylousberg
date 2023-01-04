@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://day27lm5gv2c0"
+path="res://.godot/imported/axeDouble_rare.obj-ab177d9d4c3e0423cea5c0000b9d6f06.mesh"
+
+[deps]
+
+files=["res://.godot/imported/axeDouble_rare.obj-ab177d9d4c3e0423cea5c0000b9d6f06.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/axeDouble_rare.obj"
+dest_files=["res://.godot/imported/axeDouble_rare.obj-ab177d9d4c3e0423cea5c0000b9d6f06.mesh", "res://.godot/imported/axeDouble_rare.obj-ab177d9d4c3e0423cea5c0000b9d6f06.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

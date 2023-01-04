@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3k7dbj0u40tp"
+path="res://.godot/imported/character_skeleton_mage_jaw_broken.obj-f5db10288c132256da1df5b44926adce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_mage_jaw_broken.obj-f5db10288c132256da1df5b44926adce.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_mage_jaw_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_mage_jaw_broken.obj-f5db10288c132256da1df5b44926adce.mesh", "res://.godot/imported/character_skeleton_mage_jaw_broken.obj-f5db10288c132256da1df5b44926adce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

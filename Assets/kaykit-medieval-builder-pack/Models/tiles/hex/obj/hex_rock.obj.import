@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blsbmp3lc8uq7"
+path="res://.godot/imported/hex_rock.obj-7b896845593eb0e9d3514eeb32568c43.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hex_rock.obj-7b896845593eb0e9d3514eeb32568c43.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/tiles/hex/obj/hex_rock.obj"
+dest_files=["res://.godot/imported/hex_rock.obj-7b896845593eb0e9d3514eeb32568c43.mesh", "res://.godot/imported/hex_rock.obj-7b896845593eb0e9d3514eeb32568c43.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

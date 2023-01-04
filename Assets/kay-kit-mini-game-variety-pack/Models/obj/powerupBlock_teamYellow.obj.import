@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcwgllg3nmmh3"
+path="res://.godot/imported/powerupBlock_teamYellow.obj-c2f69654efd1948af7b79eebd790c450.mesh"
+
+[deps]
+
+files=["res://.godot/imported/powerupBlock_teamYellow.obj-c2f69654efd1948af7b79eebd790c450.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/powerupBlock_teamYellow.obj"
+dest_files=["res://.godot/imported/powerupBlock_teamYellow.obj-c2f69654efd1948af7b79eebd790c450.mesh", "res://.godot/imported/powerupBlock_teamYellow.obj-c2f69654efd1948af7b79eebd790c450.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

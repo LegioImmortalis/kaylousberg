@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b65igdovy52ed"
+path="res://.godot/imported/lightning.obj-a2b17bbdd4ab3446b9d6751af2edd2f5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lightning.obj-a2b17bbdd4ab3446b9d6751af2edd2f5.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/lightning.obj"
+dest_files=["res://.godot/imported/lightning.obj-a2b17bbdd4ab3446b9d6751af2edd2f5.mesh", "res://.godot/imported/lightning.obj-a2b17bbdd4ab3446b9d6751af2edd2f5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

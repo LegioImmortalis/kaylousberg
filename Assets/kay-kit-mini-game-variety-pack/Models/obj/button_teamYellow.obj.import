@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ci7uf3gnlle1s"
+path="res://.godot/imported/button_teamYellow.obj-86e6f25b9d81d37d48f0b5c191aa564b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/button_teamYellow.obj-86e6f25b9d81d37d48f0b5c191aa564b.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/button_teamYellow.obj"
+dest_files=["res://.godot/imported/button_teamYellow.obj-86e6f25b9d81d37d48f0b5c191aa564b.mesh", "res://.godot/imported/button_teamYellow.obj-86e6f25b9d81d37d48f0b5c191aa564b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

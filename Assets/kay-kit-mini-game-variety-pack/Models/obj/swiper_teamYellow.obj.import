@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2svmxnwtqrc2"
+path="res://.godot/imported/swiper_teamYellow.obj-1d4e1a22930ee6d8d5e56710940d87df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/swiper_teamYellow.obj-1d4e1a22930ee6d8d5e56710940d87df.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/swiper_teamYellow.obj"
+dest_files=["res://.godot/imported/swiper_teamYellow.obj-1d4e1a22930ee6d8d5e56710940d87df.mesh", "res://.godot/imported/swiper_teamYellow.obj-1d4e1a22930ee6d8d5e56710940d87df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

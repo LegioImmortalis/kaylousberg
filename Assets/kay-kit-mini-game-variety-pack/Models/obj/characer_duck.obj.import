@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2i34wtjh7vc"
+path="res://.godot/imported/characer_duck.obj-311bf58dfda1d8569ad84f1de1b1aeaa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/characer_duck.obj-311bf58dfda1d8569ad84f1de1b1aeaa.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/characer_duck.obj"
+dest_files=["res://.godot/imported/characer_duck.obj-311bf58dfda1d8569ad84f1de1b1aeaa.mesh", "res://.godot/imported/characer_duck.obj-311bf58dfda1d8569ad84f1de1b1aeaa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

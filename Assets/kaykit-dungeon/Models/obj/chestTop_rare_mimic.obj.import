@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c27ew8pfjfrfv"
+path="res://.godot/imported/chestTop_rare_mimic.obj-1062508f53419355e47b63bad5294456.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chestTop_rare_mimic.obj-1062508f53419355e47b63bad5294456.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/chestTop_rare_mimic.obj"
+dest_files=["res://.godot/imported/chestTop_rare_mimic.obj-1062508f53419355e47b63bad5294456.mesh", "res://.godot/imported/chestTop_rare_mimic.obj-1062508f53419355e47b63bad5294456.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

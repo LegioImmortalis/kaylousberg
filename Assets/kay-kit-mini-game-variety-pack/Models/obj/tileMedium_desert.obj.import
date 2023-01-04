@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c7rptonpfiwhi"
+path="res://.godot/imported/tileMedium_desert.obj-ea9ca80346d9951031500bac8bf09acf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileMedium_desert.obj-ea9ca80346d9951031500bac8bf09acf.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/tileMedium_desert.obj"
+dest_files=["res://.godot/imported/tileMedium_desert.obj-ea9ca80346d9951031500bac8bf09acf.mesh", "res://.godot/imported/tileMedium_desert.obj-ea9ca80346d9951031500bac8bf09acf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

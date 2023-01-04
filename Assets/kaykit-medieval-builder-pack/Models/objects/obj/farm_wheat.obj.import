@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://beie5jy3yidhd"
+path="res://.godot/imported/farm_wheat.obj-d28bbd131c6180e420e6921530695c5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/farm_wheat.obj-d28bbd131c6180e420e6921530695c5f.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/objects/obj/farm_wheat.obj"
+dest_files=["res://.godot/imported/farm_wheat.obj-d28bbd131c6180e420e6921530695c5f.mesh", "res://.godot/imported/farm_wheat.obj-d28bbd131c6180e420e6921530695c5f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

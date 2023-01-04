@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt7ygtojigfd4"
+path="res://.godot/imported/candyA.obj-818429f848d4f1de0e98029978a40a53.mesh"
+
+[deps]
+
+files=["res://.godot/imported/candyA.obj-818429f848d4f1de0e98029978a40a53.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/candyA.obj"
+dest_files=["res://.godot/imported/candyA.obj-818429f848d4f1de0e98029978a40a53.mesh", "res://.godot/imported/candyA.obj-818429f848d4f1de0e98029978a40a53.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

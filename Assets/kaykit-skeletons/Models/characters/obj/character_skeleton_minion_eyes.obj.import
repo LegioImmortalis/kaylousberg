@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bod5cyslndf3i"
+path="res://.godot/imported/character_skeleton_minion_eyes.obj-de5ca216f2e64a09d358033aa7510d42.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_minion_eyes.obj-de5ca216f2e64a09d358033aa7510d42.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_minion_eyes.obj"
+dest_files=["res://.godot/imported/character_skeleton_minion_eyes.obj-de5ca216f2e64a09d358033aa7510d42.mesh", "res://.godot/imported/character_skeleton_minion_eyes.obj-de5ca216f2e64a09d358033aa7510d42.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

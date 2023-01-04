@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2j6ycjr5ch8r"
+path="res://.godot/imported/torchWall.obj-b5a17d1a2bd33bf2193807a3e521d10c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/torchWall.obj-b5a17d1a2bd33bf2193807a3e521d10c.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/torchWall.obj"
+dest_files=["res://.godot/imported/torchWall.obj-b5a17d1a2bd33bf2193807a3e521d10c.mesh", "res://.godot/imported/torchWall.obj-b5a17d1a2bd33bf2193807a3e521d10c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

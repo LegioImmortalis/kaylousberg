@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjc74o88pgadc"
+path="res://.godot/imported/character_skeleton_warrior_jaw_broken.obj-daef484dc227be85f4c7ba9ed2e58072.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_warrior_jaw_broken.obj-daef484dc227be85f4c7ba9ed2e58072.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_warrior_jaw_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_warrior_jaw_broken.obj-daef484dc227be85f4c7ba9ed2e58072.mesh", "res://.godot/imported/character_skeleton_warrior_jaw_broken.obj-daef484dc227be85f4c7ba9ed2e58072.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

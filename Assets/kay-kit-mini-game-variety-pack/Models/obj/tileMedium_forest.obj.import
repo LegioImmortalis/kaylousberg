@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd51k56hhwe86"
+path="res://.godot/imported/tileMedium_forest.obj-4090aac736490cca26ed59834e0f38ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileMedium_forest.obj-4090aac736490cca26ed59834e0f38ed.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/tileMedium_forest.obj"
+dest_files=["res://.godot/imported/tileMedium_forest.obj-4090aac736490cca26ed59834e0f38ed.mesh", "res://.godot/imported/tileMedium_forest.obj-4090aac736490cca26ed59834e0f38ed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

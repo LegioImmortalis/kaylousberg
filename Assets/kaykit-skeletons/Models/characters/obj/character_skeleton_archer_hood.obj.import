@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d21x14ke7i0w4"
+path="res://.godot/imported/character_skeleton_archer_hood.obj-6330a988c7b72c477754772d78e9046c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_archer_hood.obj-6330a988c7b72c477754772d78e9046c.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_archer_hood.obj"
+dest_files=["res://.godot/imported/character_skeleton_archer_hood.obj-6330a988c7b72c477754772d78e9046c.mesh", "res://.godot/imported/character_skeleton_archer_hood.obj-6330a988c7b72c477754772d78e9046c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

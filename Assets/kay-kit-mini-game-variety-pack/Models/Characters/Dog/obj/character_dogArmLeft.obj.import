@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://tccuyvsk216f"
+path="res://.godot/imported/character_dogArmLeft.obj-dff703e5fa625e56086a2825b4cd358d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_dogArmLeft.obj-dff703e5fa625e56086a2825b4cd358d.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/Characters/Dog/obj/character_dogArmLeft.obj"
+dest_files=["res://.godot/imported/character_dogArmLeft.obj-dff703e5fa625e56086a2825b4cd358d.mesh", "res://.godot/imported/character_dogArmLeft.obj-dff703e5fa625e56086a2825b4cd358d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

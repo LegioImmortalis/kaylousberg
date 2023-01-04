@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dd78olty1ordp"
+path="res://.godot/imported/wallSingle_decorationB.obj-384cd663d369d9c571741e259fca841c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallSingle_decorationB.obj-384cd663d369d9c571741e259fca841c.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/wallSingle_decorationB.obj"
+dest_files=["res://.godot/imported/wallSingle_decorationB.obj-384cd663d369d9c571741e259fca841c.mesh", "res://.godot/imported/wallSingle_decorationB.obj-384cd663d369d9c571741e259fca841c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

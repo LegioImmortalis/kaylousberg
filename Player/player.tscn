@@ -1,0 +1,85 @@
+[gd_scene load_steps=6 format=3 uid="uid://cab5gutm4mj6x"]
+
+[ext_resource type="Script" path="res://Player/player.gd" id="1_jg6tv"]
+[ext_resource type="Script" path="res://Player/Multiplayer.gd" id="3_lk4ue"]
+[ext_resource type="Script" path="res://control.gd" id="3_ooj08"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_c7xmt"]
+radius = 0.1
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ejwbh"]
+properties/0/path = NodePath("Multiplayer:input_state")
+properties/0/spawn = true
+properties/0/sync = true
+properties/1/path = NodePath(".")
+properties/1/spawn = true
+properties/1/sync = true
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_jg6tv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.650229, 0)
+shape = SubResource("SphereShape3D_c7xmt")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.999986, -0.00251489, -0.00467366, 0.00262137, 0.999734, 0.0229176, 0.00461478, -0.0229295, 0.999726, -0.0492177, 2.12697, 3.77809)
+
+[node name="CharacterSelector" type="VBoxContainer" parent="."]
+offset_left = 50.0
+offset_top = 47.0
+offset_right = 135.0
+offset_bottom = 268.0
+script = ExtResource("3_ooj08")
+
+[node name="Mage" type="Button" parent="CharacterSelector"]
+offset_right = 85.0
+offset_bottom = 31.0
+text = "Mage
+"
+
+[node name="Jack" type="Button" parent="CharacterSelector"]
+offset_top = 35.0
+offset_right = 85.0
+offset_bottom = 66.0
+text = "Jack"
+
+[node name="Barbarian" type="Button" parent="CharacterSelector"]
+offset_top = 70.0
+offset_right = 85.0
+offset_bottom = 101.0
+text = "Barbarian"
+
+[node name="Knight" type="Button" parent="CharacterSelector"]
+offset_top = 105.0
+offset_right = 85.0
+offset_bottom = 136.0
+text = "Knight
+"
+
+[node name="Rogue" type="Button" parent="CharacterSelector"]
+offset_top = 140.0
+offset_right = 85.0
+offset_bottom = 171.0
+text = "Rogue"
+
+[node name="Witch" type="Button" parent="CharacterSelector"]
+offset_top = 175.0
+offset_right = 85.0
+offset_bottom = 206.0
+text = "Witch"
+
+[node name="Multiplayer" type="Node" parent="."]
+script = ExtResource("3_lk4ue")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="Multiplayer"]
+root_path = NodePath("../..")
+replication_config = SubResource("SceneReplicationConfig_ejwbh")
+
+[connection signal="gui_input" from="CharacterSelector" to="CharacterSelector" method="_on_gui_input"]
+[connection signal="pressed" from="CharacterSelector/Mage" to="CharacterSelector" method="_on_mage_pressed"]
+[connection signal="pressed" from="CharacterSelector/Jack" to="CharacterSelector" method="_on_jack_pressed"]
+[connection signal="pressed" from="CharacterSelector/Barbarian" to="CharacterSelector" method="_on_barbarian_pressed"]
+[connection signal="pressed" from="CharacterSelector/Knight" to="CharacterSelector" method="_on_knight_pressed"]
+[connection signal="pressed" from="CharacterSelector/Rogue" to="CharacterSelector" method="_on_rogue_pressed"]
+[connection signal="pressed" from="CharacterSelector/Witch" to="CharacterSelector" method="_on_witch_pressed"]

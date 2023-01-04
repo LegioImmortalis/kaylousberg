@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brqnp526pdttr"
+path="res://.godot/imported/sword_common.obj-a85db440ed354da30d3c49e952f22e15.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sword_common.obj-a85db440ed354da30d3c49e952f22e15.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/sword_common.obj"
+dest_files=["res://.godot/imported/sword_common.obj-a85db440ed354da30d3c49e952f22e15.mesh", "res://.godot/imported/sword_common.obj-a85db440ed354da30d3c49e952f22e15.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

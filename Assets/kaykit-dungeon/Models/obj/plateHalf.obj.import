@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ikas3xwb0wod"
+path="res://.godot/imported/plateHalf.obj-2a37464a265016833f65f427d8e8a0ac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plateHalf.obj-2a37464a265016833f65f427d8e8a0ac.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/plateHalf.obj"
+dest_files=["res://.godot/imported/plateHalf.obj-2a37464a265016833f65f427d8e8a0ac.mesh", "res://.godot/imported/plateHalf.obj-2a37464a265016833f65f427d8e8a0ac.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4xmrx2fxespd"
+path="res://.godot/imported/axeDouble_common.obj-bed45dcab77eaceb7551df2a8fee756b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/axeDouble_common.obj-bed45dcab77eaceb7551df2a8fee756b.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/axeDouble_common.obj"
+dest_files=["res://.godot/imported/axeDouble_common.obj-bed45dcab77eaceb7551df2a8fee756b.mesh", "res://.godot/imported/axeDouble_common.obj-bed45dcab77eaceb7551df2a8fee756b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://miaiiey2e7qk"
+path="res://.godot/imported/flag_teamBlue.obj-2e0c18f003b7b1fa56949985b05ebed6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag_teamBlue.obj-2e0c18f003b7b1fa56949985b05ebed6.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/flag_teamBlue.obj"
+dest_files=["res://.godot/imported/flag_teamBlue.obj-2e0c18f003b7b1fa56949985b05ebed6.mesh", "res://.godot/imported/flag_teamBlue.obj-2e0c18f003b7b1fa56949985b05ebed6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

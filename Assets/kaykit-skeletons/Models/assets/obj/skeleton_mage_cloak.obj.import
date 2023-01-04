@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://deh28ghcoo6eo"
+path="res://.godot/imported/skeleton_mage_cloak.obj-3dfbe5dd1999f22bc1255767966dab59.mesh"
+
+[deps]
+
+files=["res://.godot/imported/skeleton_mage_cloak.obj-3dfbe5dd1999f22bc1255767966dab59.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/assets/obj/skeleton_mage_cloak.obj"
+dest_files=["res://.godot/imported/skeleton_mage_cloak.obj-3dfbe5dd1999f22bc1255767966dab59.mesh", "res://.godot/imported/skeleton_mage_cloak.obj-3dfbe5dd1999f22bc1255767966dab59.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

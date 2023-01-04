@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xa4ud7hwjahe"
+path="res://.godot/imported/spikeRoller.obj-df90c92ce80fe62f6715f3c3ea23821c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/spikeRoller.obj-df90c92ce80fe62f6715f3c3ea23821c.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/spikeRoller.obj"
+dest_files=["res://.godot/imported/spikeRoller.obj-df90c92ce80fe62f6715f3c3ea23821c.mesh", "res://.godot/imported/spikeRoller.obj-df90c92ce80fe62f6715f3c3ea23821c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

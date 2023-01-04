@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgy48g356lq6a"
+path="res://.godot/imported/targetStand.obj-0ab106434ad347f061bb7b00a9bfa057.mesh"
+
+[deps]
+
+files=["res://.godot/imported/targetStand.obj-0ab106434ad347f061bb7b00a9bfa057.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/targetStand.obj"
+dest_files=["res://.godot/imported/targetStand.obj-0ab106434ad347f061bb7b00a9bfa057.mesh", "res://.godot/imported/targetStand.obj-0ab106434ad347f061bb7b00a9bfa057.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

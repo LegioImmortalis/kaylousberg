@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dje08g58ywqj5"
+path="res://.godot/imported/character_skeleton_mage_eyes.obj-53305314f01f7d9b711832af43d1b50c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_mage_eyes.obj-53305314f01f7d9b711832af43d1b50c.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_mage_eyes.obj"
+dest_files=["res://.godot/imported/character_skeleton_mage_eyes.obj-53305314f01f7d9b711832af43d1b50c.mesh", "res://.godot/imported/character_skeleton_mage_eyes.obj-53305314f01f7d9b711832af43d1b50c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

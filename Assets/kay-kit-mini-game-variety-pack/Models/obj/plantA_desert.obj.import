@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2n58bp8wqf02"
+path="res://.godot/imported/plantA_desert.obj-b2bb0a5d76d2383f4ac7778a4e0939de.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plantA_desert.obj-b2bb0a5d76d2383f4ac7778a4e0939de.mesh"]
+
+source_file="res://Assets/kay-kit-mini-game-variety-pack/Models/obj/plantA_desert.obj"
+dest_files=["res://.godot/imported/plantA_desert.obj-b2bb0a5d76d2383f4ac7778a4e0939de.mesh", "res://.godot/imported/plantA_desert.obj-b2bb0a5d76d2383f4ac7778a4e0939de.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

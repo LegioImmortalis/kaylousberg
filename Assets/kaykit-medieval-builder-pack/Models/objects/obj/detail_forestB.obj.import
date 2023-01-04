@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bvgl37b0odlkj"
+path="res://.godot/imported/detail_forestB.obj-6a8d3f5d0754fe55cd88cd46a3e3fcad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_forestB.obj-6a8d3f5d0754fe55cd88cd46a3e3fcad.mesh"]
+
+source_file="res://Assets/kaykit-medieval-builder-pack/Models/objects/obj/detail_forestB.obj"
+dest_files=["res://.godot/imported/detail_forestB.obj-6a8d3f5d0754fe55cd88cd46a3e3fcad.mesh", "res://.godot/imported/detail_forestB.obj-6a8d3f5d0754fe55cd88cd46a3e3fcad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3lpo1dm6y1dv"
+path="res://.godot/imported/candyBucket.obj-518aa9fbe869db1fc64010785eeade77.mesh"
+
+[deps]
+
+files=["res://.godot/imported/candyBucket.obj-518aa9fbe869db1fc64010785eeade77.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/candyBucket.obj"
+dest_files=["res://.godot/imported/candyBucket.obj-518aa9fbe869db1fc64010785eeade77.mesh", "res://.godot/imported/candyBucket.obj-518aa9fbe869db1fc64010785eeade77.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

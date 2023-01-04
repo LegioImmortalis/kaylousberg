@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkwrfx8uyq6s5"
+path="res://.godot/imported/fenceDouble.obj-c7ea2a9fbb22f131721b0e86bd633068.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fenceDouble.obj-c7ea2a9fbb22f131721b0e86bd633068.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/fenceDouble.obj"
+dest_files=["res://.godot/imported/fenceDouble.obj-c7ea2a9fbb22f131721b0e86bd633068.mesh", "res://.godot/imported/fenceDouble.obj-c7ea2a9fbb22f131721b0e86bd633068.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

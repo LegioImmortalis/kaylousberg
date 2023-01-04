@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c21kw71dn5ohd"
+path="res://.godot/imported/coffinB_top.obj-61bef29f9392f46dcf561b86a2fd24c9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coffinB_top.obj-61bef29f9392f46dcf561b86a2fd24c9.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/coffinB_top.obj"
+dest_files=["res://.godot/imported/coffinB_top.obj-61bef29f9392f46dcf561b86a2fd24c9.mesh", "res://.godot/imported/coffinB_top.obj-61bef29f9392f46dcf561b86a2fd24c9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

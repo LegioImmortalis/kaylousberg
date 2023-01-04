@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://hfih8643v05y"
+path="res://.godot/imported/scaffold_low_railing.obj-2e9a51953f1cd8022e8e057eaf5d4e08.mesh"
+
+[deps]
+
+files=["res://.godot/imported/scaffold_low_railing.obj-2e9a51953f1cd8022e8e057eaf5d4e08.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/scaffold_low_railing.obj"
+dest_files=["res://.godot/imported/scaffold_low_railing.obj-2e9a51953f1cd8022e8e057eaf5d4e08.mesh", "res://.godot/imported/scaffold_low_railing.obj-2e9a51953f1cd8022e8e057eaf5d4e08.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

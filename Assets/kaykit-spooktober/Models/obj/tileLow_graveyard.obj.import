@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cux2k6xljyeyi"
+path="res://.godot/imported/tileLow_graveyard.obj-271dcfd8d1ac3cc082d6b9ed35dbcd78.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tileLow_graveyard.obj-271dcfd8d1ac3cc082d6b9ed35dbcd78.mesh"]
+
+source_file="res://Assets/kaykit-spooktober/Models/obj/tileLow_graveyard.obj"
+dest_files=["res://.godot/imported/tileLow_graveyard.obj-271dcfd8d1ac3cc082d6b9ed35dbcd78.mesh", "res://.godot/imported/tileLow_graveyard.obj-271dcfd8d1ac3cc082d6b9ed35dbcd78.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

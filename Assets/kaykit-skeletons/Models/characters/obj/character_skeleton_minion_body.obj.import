@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkpqyd15beicn"
+path="res://.godot/imported/character_skeleton_minion_body.obj-78d93078c0647300223d65f24f6bd3e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_minion_body.obj-78d93078c0647300223d65f24f6bd3e3.mesh"]
+
+source_file="res://Assets/kaykit-skeletons/Models/characters/obj/character_skeleton_minion_body.obj"
+dest_files=["res://.godot/imported/character_skeleton_minion_body.obj-78d93078c0647300223d65f24f6bd3e3.mesh", "res://.godot/imported/character_skeleton_minion_body.obj-78d93078c0647300223d65f24f6bd3e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

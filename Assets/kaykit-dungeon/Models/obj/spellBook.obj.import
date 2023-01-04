@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://26t5hnq57l2q"
+path="res://.godot/imported/spellBook.obj-1d0ed966497ca88e930341b21f006cae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/spellBook.obj-1d0ed966497ca88e930341b21f006cae.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/spellBook.obj"
+dest_files=["res://.godot/imported/spellBook.obj-1d0ed966497ca88e930341b21f006cae.mesh", "res://.godot/imported/spellBook.obj-1d0ed966497ca88e930341b21f006cae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

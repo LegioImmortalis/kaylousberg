@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ltxt68s0malr"
+path="res://.godot/imported/crateDark.obj-7057551a346dd9a1a1d4ad5b1ce0bf62.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crateDark.obj-7057551a346dd9a1a1d4ad5b1ce0bf62.mesh"]
+
+source_file="res://Assets/kaykit-dungeon/Models/obj/crateDark.obj"
+dest_files=["res://.godot/imported/crateDark.obj-7057551a346dd9a1a1d4ad5b1ce0bf62.mesh", "res://.godot/imported/crateDark.obj-7057551a346dd9a1a1d4ad5b1ce0bf62.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
