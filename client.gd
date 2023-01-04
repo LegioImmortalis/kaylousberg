@@ -9,8 +9,8 @@ var port = 8888
 func _ready():
 	print("Custom Client _ready() Entered")
 
-	client_custom.peer_connected
-	client_custom.peer_disconnected
+	client_custom.peer_connected.connect(_on_connection_succeeded)
+	client_custom.peer_disconnected.connect(_on_connection_failed)
 
 	client_custom.create_client(address, port)
 	multiplayer_api = MultiplayerAPI.create_default_interface()

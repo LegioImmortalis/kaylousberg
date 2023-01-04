@@ -1,46 +1,23 @@
-[gd_scene load_steps=10 format=3 uid="uid://crpx12f67u3pt"]
+[gd_scene load_steps=5 format=3 uid="uid://c1o7wn1dc0qpr"]
 
-[ext_resource type="PackedScene" uid="uid://bggep1t6dnhac" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/dae/square_forest.dae" id="1_pn3dv"]
-[ext_resource type="PackedScene" uid="uid://x7thd6mt4pkk" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/dae/square_rock.dae" id="2_6sj2v"]
-[ext_resource type="PackedScene" uid="uid://d1wnjw60j2at8" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/dae/square_water.dae" id="3_raypl"]
-[ext_resource type="PackedScene" uid="uid://c121ibk83c42m" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/dae/square_sand.dae" id="4_cg07g"]
-[ext_resource type="PackedScene" uid="uid://3jqdw00b8s6l" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/fbx/square_rock.fbx" id="5_5hxlm"]
-[ext_resource type="PackedScene" uid="uid://c722rw3ryvhie" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/fbx/square_sand.fbx" id="6_kvkgj"]
-[ext_resource type="PackedScene" uid="uid://2xrta47y1sc1" path="res://Assets/kaykit-medieval-builder-pack/Models/tiles/square/gltf/square_rock.gltf.glb" id="7_g72lq"]
+[ext_resource type="Script" path="res://Village/Floor.gd" id="1_giqsu"]
+[ext_resource type="Script" path="res://Village/Wall.gd" id="3_pow5h"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_rphx5"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_va06l"]
 points = PackedVector3Array(-50, -0.5, -50, -50, 0.5, -50, 50, -0.5, -50, -50, -0.5, 50, -50, 0.5, 50, 50, 0.5, -50, 50, -0.5, 50, 50, 0.5, 50)
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_jrrs0"]
-properties/0/path = NodePath(".")
-properties/0/spawn = true
-properties/0/sync = true
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_rkvrg"]
 
 [node name="Village" type="StaticBody3D"]
 
-[node name="square_forest" parent="." instance=ExtResource("1_pn3dv")]
-transform = Transform3D(50, 0, 0, 0, 1, 0, 0, 0, 50, 0, -1, 0)
-
-[node name="square_rock" parent="." instance=ExtResource("2_6sj2v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -2)
-
-[node name="square_water" parent="." instance=ExtResource("3_raypl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -4)
-
-[node name="square_sand" parent="." instance=ExtResource("4_cg07g")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, -4)
-
-[node name="square_rock2" parent="." instance=ExtResource("5_5hxlm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, -2)
-
-[node name="square_sand2" parent="." instance=ExtResource("6_kvkgj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 1, -2)
-
-[node name="square_rockgltf" parent="." instance=ExtResource("7_g72lq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 0)
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("ConvexPolygonShape3D_rphx5")
+shape = SubResource("ConvexPolygonShape3D_va06l")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
-replication_config = SubResource("SceneReplicationConfig_jrrs0")
+replication_config = SubResource("SceneReplicationConfig_rkvrg")
+
+[node name="Floor" type="Node3D" parent="."]
+script = ExtResource("1_giqsu")
+
+[node name="Wall" type="Node3D" parent="."]
+script = ExtResource("3_pow5h")

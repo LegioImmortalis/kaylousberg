@@ -372,6 +372,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000671387, -1.19209e-06, 0
 mesh = SubResource("ArrayMesh_gprji")
 skeleton = NodePath("")
 
+[node name="Camera3D" type="Camera3D" parent="Animations/Skeleton3D/Head/character_rogueHead"]
+transform = Transform3D(-1, 2.77397e-08, -8.29051e-08, 0, 0.948324, 0.317305, 8.74228e-08, 0.317305, -0.948324, 1.35081e-07, 1.73465, -1.54514)
+
 [node name="Body" parent="Animations/Skeleton3D" index="1"]
 transform = Transform3D(1, -5.31714e-24, -8.66272e-31, 5.31714e-24, 1, 1.62921e-07, 1.88079e-37, -1.62921e-07, 1, 0, 0, 0)
 

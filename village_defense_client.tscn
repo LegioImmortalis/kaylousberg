@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=3 uid="uid://6qar7gjpjpi7"]
+[gd_scene load_steps=4 format=3 uid="uid://6qar7gjpjpi7"]
 
-[ext_resource type="Script" path="res://client.gd" id="1_rw1s5"]
 [ext_resource type="PackedScene" uid="uid://crpx12f67u3pt" path="res://Village/village.tscn" id="2_pm4ku"]
 
 [sub_resource type="Environment" id="Environment_dbbf6"]
@@ -8,7 +7,6 @@
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_rop3y"]
 
 [node name="VillageDefense" type="Node"]
-script = ExtResource("1_rw1s5")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
@@ -18,10 +16,8 @@ shadow_enabled = true
 
 [node name="Spawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://Player/player.tscn")
-spawn_path = NodePath("../Spawn")
+spawn_path = NodePath("..")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_dbbf6")
 camera_attributes = SubResource("CameraAttributesPractical_rop3y")
-
-[node name="Spawn" type="Node" parent="."]

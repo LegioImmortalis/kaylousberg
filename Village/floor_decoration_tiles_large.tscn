@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://xig416tb3u3b"]
+
+[ext_resource type="PackedScene" uid="uid://bh6w6whp05gg4" path="res://Assets/kaykit-dungeon/Models/dae/floorDecoration_tilesLarge.dae" id="1_ivj8s"]
+
+[node name="floorDecoration_tilesLarge" instance=ExtResource("1_ivj8s")]

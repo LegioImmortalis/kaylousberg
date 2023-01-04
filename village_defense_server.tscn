@@ -1,22 +1,20 @@
-[gd_scene load_steps=6 format=3 uid="uid://oyore1fxnqdk"]
+[gd_scene load_steps=7 format=3 uid="uid://oyore1fxnqdk"]
 
-[ext_resource type="Script" path="res://server.gd" id="1_31nb7"]
-[ext_resource type="PackedScene" uid="uid://crpx12f67u3pt" path="res://Village/village.tscn" id="5_ktu8k"]
+[ext_resource type="Script" path="res://client.gd" id="1_jx2gj"]
+[ext_resource type="PackedScene" uid="uid://cab5gutm4mj6x" path="res://Player/player.tscn" id="3_f6umh"]
+[ext_resource type="PackedScene" uid="uid://c1o7wn1dc0qpr" path="res://Village/village.tscn" id="5_ktu8k"]
 
 [sub_resource type="Environment" id="Environment_dbbf6"]
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_rop3y"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_0pcck"]
-properties/0/path = NodePath(".")
-properties/0/spawn = true
-properties/0/sync = true
 
 [node name="VillageDefense" type="Node"]
-script = ExtResource("1_31nb7")
+script = ExtResource("1_jx2gj")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.75, -0.43301, 0, 2.63885, 0)
 shadow_enabled = true
 
 [node name="Village" parent="." instance=ExtResource("5_ktu8k")]
@@ -31,3 +29,6 @@ spawn_path = NodePath(".")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_0pcck")
+
+[node name="Player" parent="." instance=ExtResource("3_f6umh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

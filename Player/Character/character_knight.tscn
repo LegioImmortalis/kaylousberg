@@ -534,10 +534,16 @@ shadow_mesh = SubResource("ArrayMesh_3ijui")
 
 [node name="KayKit Animated Character_v12" parent="." instance=ExtResource("1_6a0uw")]
 
+[node name="Head" parent="KayKit Animated Character_v12/Skeleton3D" index="0"]
+transform = Transform3D(1, -2.62522e-23, -8.66273e-31, 2.62522e-23, 1, 1.62921e-07, -3.41074e-30, -1.62921e-07, 1, -4.16185e-11, 0.00711598, -1.15125e-09)
+
 [node name="character_knightHead" type="MeshInstance3D" parent="KayKit Animated Character_v12/Skeleton3D/Head" index="0"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15255e-09, -5.96047e-09, 7.15256e-09, 0.01, -9.03881e-10, -7.88551e-05, 3.52273e-09)
 mesh = SubResource("ArrayMesh_ab6a7")
 skeleton = NodePath("")
+
+[node name="Camera3D" type="Camera3D" parent="KayKit Animated Character_v12/Skeleton3D/Head/character_knightHead"]
+transform = Transform3D(-1, 2.77397e-08, -8.29051e-08, 0, 0.948324, 0.317305, 8.74228e-08, 0.317305, -0.948324, 1.35081e-07, 1.73465, -1.54514)
 
 [node name="character_knightHelmet" type="MeshInstance3D" parent="KayKit Animated Character_v12/Skeleton3D/Head" index="1"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15255e-09, -5.96047e-09, 7.15256e-09, 0.01, -1.62065e-09, 0.00525588, 8.84096e-09)
@@ -549,19 +555,34 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.310447, 0.0497657)
 mesh = SubResource("ArrayMesh_2jt56")
 skeleton = NodePath("")
 
+[node name="Body" parent="KayKit Animated Character_v12/Skeleton3D" index="1"]
+transform = Transform3D(1, -5.31716e-24, -8.66274e-31, 5.31716e-24, 1, 1.62921e-07, -1.45761e-36, -1.62921e-07, 1, 0, 0, 0)
+
 [node name="character_knightBody" type="MeshInstance3D" parent="KayKit Animated Character_v12/Skeleton3D/Body" index="0"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15255e-09, -5.96047e-09, 7.15256e-09, 0.01, 0, 0, 0)
 mesh = SubResource("ArrayMesh_prinb")
 skeleton = NodePath("")
+
+[node name="ArmLeft" parent="KayKit Animated Character_v12/Skeleton3D" index="2"]
+transform = Transform3D(8.66274e-31, 0.471937, -0.881632, -1.62921e-07, -0.881632, -0.471937, -1, 1.43636e-07, 7.68882e-08, 0.0014, 0.00691598, -1.17522e-09)
 
 [node name="character_knightArmLeft" type="MeshInstance3D" parent="KayKit Animated Character_v12/Skeleton3D/ArmLeft" index="0"]
 transform = Transform3D(5.96047e-09, -7.15256e-09, -0.01, 0.00471937, -0.00881632, 9.11889e-09, -0.00881632, -0.00471937, -1.87939e-09, -3.27068e-09, 0.000813961, -0.000290715)
 mesh = SubResource("ArrayMesh_wduut")
 skeleton = NodePath("")
 
+[node name="ArmRight" parent="KayKit Animated Character_v12/Skeleton3D" index="3"]
+transform = Transform3D(8.66274e-31, -0.471937, -0.881632, -1.62921e-07, -0.881632, 0.471937, -1, 1.43636e-07, -7.68882e-08, -0.0014, 0.00691598, -1.12676e-09)
+
 [node name="character_knightArmRight" type="MeshInstance3D" parent="KayKit Animated Character_v12/Skeleton3D/ArmRight" index="0"]
 transform = Transform3D(5.96047e-09, -7.15256e-09, -0.01, -0.00471937, -0.00881632, 3.49296e-09, -0.00881632, 0.00471937, -8.6305e-09, -5.65462e-09, 0.000813962, 0.000290716)
 mesh = SubResource("ArrayMesh_6owuw")
 skeleton = NodePath("")
+
+[node name="HandLeft" parent="KayKit Animated Character_v12/Skeleton3D" index="4"]
+transform = Transform3D(-1, -8.66274e-31, -5.96046e-07, -5.96046e-07, 1.62921e-07, 1, 9.23706e-14, 1, -1.62921e-07, 0.004, 0.00205887, -2.06944e-10)
+
+[node name="HandRight" parent="KayKit Animated Character_v12/Skeleton3D" index="5"]
+transform = Transform3D(-1, -8.66274e-31, 5.96046e-07, 5.96046e-07, 1.62921e-07, 1, -9.23706e-14, 1, -1.62921e-07, -0.004, 0.00205887, -4.65818e-10)
 
 [editable path="KayKit Animated Character_v12"]
