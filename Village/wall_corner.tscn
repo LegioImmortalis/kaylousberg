@@ -64,10 +64,10 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_r3cig")
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_l5gol"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_c7gaf"]
 points = PackedVector3Array(2, 4, 0.75, 2, 0, 0.75, 2, 4, 0, -2, 4, 0.75, 2, 0, 0, -2, 0, 0.75, -2, 4, 0, -2, 0, 0)
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_jx6h6"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3ldq8"]
 points = PackedVector3Array(2, 4, 0.75, 2, 0, 0.75, 2, 4, 0, -2, 4, 0.75, 2, 0, 0, -2, 0, 0.75, -2, 4, 0, -2, 0, 0)
 
 [node name="wallSingle" type="RigidBody3D"]
@@ -77,14 +77,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -0.5, 0)
 mesh = SubResource("ArrayMesh_p4bwm")
 skeleton = NodePath("")
 
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1, -4, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_c7gaf")
+
 [node name="wallSingle2" type="MeshInstance3D" parent="."]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2, -0.5, 2)
 mesh = SubResource("ArrayMesh_p4bwm")
 skeleton = NodePath("")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2, 0, 2)
-shape = SubResource("ConvexPolygonShape3D_l5gol")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("ConvexPolygonShape3D_jx6h6")
+transform = Transform3D(-4.37114e-08, 0, -1.1, 0, 1, 0, 1, 0, -4.80825e-08, -2, 0, 2)
+shape = SubResource("ConvexPolygonShape3D_3ldq8")

@@ -1,9 +1,10 @@
 extends CharacterBody3D
 
-const BASESPEED = 6.0
-const JUMP_VELOCITY = 4.5
+const BASESPEED = 5.0
+const JUMP_VELOCITY = 5.0
 const RUN = 2.0
 const WALK = 0.6
+const DASH = 10
 var speed = BASESPEED
 var character
 
@@ -20,29 +21,8 @@ func _physics_process(delta):
 		var animations = character.get_node("Animations")  
 		var animation_player = animations.get_node("AnimationPlayer")  
 
-		# Handle Jump.
-		if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-			velocity.y = JUMP_VELOCITY
-			animation_player.play("KayKit Animated Character|Jump")
 		#Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 		#Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
-			
-		if Input.is_key_pressed(KEY_W):
-			if Input.is_key_pressed(KEY_SHIFT):
-				speed = BASESPEED*RUN
-				animation_player.play("KayKit Animated Character|Run")
-			else:
-				animation_player.play("KayKit Animated Character|Walk")
-			if Input.is_key_pressed(KEY_CTRL):
-				speed = BASESPEED*WALK		
-		if Input.is_key_pressed(KEY_S):
-			if Input.is_key_pressed(KEY_SHIFT):
-				speed = BASESPEED*RUN
-				animation_player.play_backwards("KayKit Animated Character|Run")
-			else:
-				animation_player.play_backwards("KayKit Animated Character|Walk")
-			if Input.is_key_pressed(KEY_CTRL):
-				speed = BASESPEED*WALK
 		if false:
 			animation_player.play("KayKit Animated Character|Attack(l h)")
 			animation_player.play("KayKit Animated Character|AttackCombo")
@@ -85,9 +65,10 @@ func _physics_process(delta):
 		elif $".".rotation.y == 270:
 			characterDirection = Vector3(0, 0, -1)
 
+		#		_physics_process()
+		#var spaceState:PhysicsDirectSpaceState3D = get_parent().get_node("Player").get_world().direct_space_state
 		# Cast a ray in the direction the character is facing and check if it hits a wall
-		var world = $".".get_parent().get_node("Village")
-		var hit = world.direct_space_state.intersect_ray($".".position, $".".position + characterDirection * 100)
+		#var hit = PhysicsDirectSpaceState3D.intersect_ray(position + characterDirection * 100)
 		#if hit:
 		#	print("wall")
 		#else:
@@ -101,6 +82,39 @@ func _physics_process(delta):
 		#	print(input_dir)
 		#if input_dir.x > 0 && input_dir.y < 0 || input_dir.x < 0 && input_dir.y > 0:
 		#	print(input_dir)
+		
+		if is_on_floor():
+			speed = BASESPEED
+			animation_player.play("KayKit Animated Character|Walk")
+			if input_dir == Vector2.ZERO:
+				animation_player.play("KayKit Animated Character|Idle",input_dir.y,1)
+			if Input.is_key_pressed(KEY_SHIFT):
+				speed = BASESPEED*RUN
+				animation_player.play("KayKit Animated Character|Run")
+			if Input.is_key_pressed(KEY_CTRL):
+				speed = BASESPEED*WALK
+				animation_player.play("KayKit Animated Character|Walk",input_dir.y,WALK)
+			if Input.is_action_just_pressed("dash"):
+				dash(animation_player)
+			if Input.is_key_pressed(KEY_SPACE):
+				velocity.y = JUMP_VELOCITY
+				animation_player.play("KayKit Animated Character|Jump",1,1/speed/BASESPEED)
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		var input_mouse = Input.get_last_mouse_velocity()
 		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 		#var direction = (transform.basis * Vector3(input_mouse.x, 0, input_mouse.y)).normalized()
@@ -110,9 +124,13 @@ func _physics_process(delta):
 		else:
 			velocity.x = move_toward(velocity.x, 0, speed)
 			velocity.z = move_toward(velocity.z, 0, speed)
-		
+		if is_on_wall() && not is_on_floor():
+			rotate_y(deg_to_rad(180))
+			animation_player.play("KayKit Animated Character|Roll")
 		rotate_y(-input_mouse.x/10000)
-		animations.get_node("Skeleton3D/Head/Camera3D").rotate_x(input_mouse.y/10000)
+		animations.get_node("Skeleton3D/Camera3D").rotate_x(input_mouse.y/10000)
+		#print(animations.get_node("Skeleton3D/Camera3D").project_ray_origin(self))
+		#print(direction)	
 		move_and_slide()
 	
 func _add_character(source):
@@ -131,3 +149,26 @@ func _add_character(source):
 	#animation_player.play("KayKit Animated Character|Walk")
 	#var animation = $source/AnimationPlayer
 	#animation.play("KayKit Animated Character|Walk")
+
+
+const RAY_LENGTH = 1000.0
+
+func _input(event):
+	if character: # handle animations
+		var animations = character.get_node("Animations")  
+		var animation_player = animations.get_node("AnimationPlayer")  
+		if event is InputEventMouseButton and event.pressed and event.button_index == 1:
+			var camera3d = animations.get_node("Skeleton3D/Head/Camera3D")
+			var from = camera3d.project_ray_origin(event.position)
+			var to = from + camera3d.project_ray_normal(event.position) * RAY_LENGTH
+			print(to)
+
+func dash(animation_player):
+	print("start")
+	speed = BASESPEED*DASH
+	animation_player.play("KayKit Animated Character|DashFront")
+	await(get_tree().create_timer(1.0))
+	print("done")
+	#animation_player.play("KayKit Animated Character|DashBack")
+	#animation_player.play("KayKit Animated Character|DashLeft")
+	#animation_player.play("KayKit Animated Character|DashRight")

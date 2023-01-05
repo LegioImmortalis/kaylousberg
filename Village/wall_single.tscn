@@ -78,13 +78,14 @@ mesh = SubResource("ArrayMesh_p4bwm")
 skeleton = NodePath("")
 
 [node name="wallSingle2" type="MeshInstance3D" parent="."]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, -0.5, 4)
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, -0.5, 4)
 mesh = SubResource("ArrayMesh_p4bwm")
 skeleton = NodePath("")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 4)
+transform = Transform3D(-1, 0, -1.66095e-07, 0, 1, 0, 1.50996e-07, 0, -1.1, 0, 0, 4)
 shape = SubResource("ConvexPolygonShape3D_eoh8p")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_jx6h6")

@@ -9,8 +9,9 @@
 [ext_resource type="Script" path="res://Player/Character/character_rogue/spawnerScript.gd" id="7_oi02c"]
 [ext_resource type="Script" path="res://Player/Character/character_witch/spawnerScript.gd" id="8_rp2o2"]
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_io1ox"]
-radius = 0.1
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1luvd"]
+radius = 0.75
+height = 1.5
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ubf6t"]
 
@@ -19,7 +20,7 @@ script = ExtResource("1_jg6tv")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
-shape = SubResource("SphereShape3D_io1ox")
+shape = SubResource("CapsuleShape3D_1luvd")
 
 [node name="CharacterSelector" type="VBoxContainer" parent="."]
 offset_left = 50.0

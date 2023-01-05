@@ -395,11 +395,17 @@ shadow_mesh = SubResource("ArrayMesh_lhld7")
 [node name="Animations" parent="." instance=ExtResource("1_150j1")]
 
 [node name="Skeleton3D" parent="Animations" index="0"]
-bones/0/rotation = Quaternion(-8.14603e-08, -2.16568e-31, 2.65857e-24, 1)
+bones/0/rotation = Quaternion(-8.14603e-08, -2.16568e-31, 2.65858e-24, 1)
+bones/1/rotation = Quaternion(7.10543e-15, 7.4376e-38, 1.04675e-23, 1)
+bones/2/position = Vector3(0.0014, 0.00691598, -4.84622e-11)
+bones/2/rotation = Quaternion(0.685863, 0.172023, -0.685863, 0.172023)
+bones/3/rotation = Quaternion(-0.606617, 0.606617, -0.36334, -0.36334)
 bones/4/position = Vector3(-0.0014, 0.00691598, -1.03253e-11)
+bones/4/rotation = Quaternion(0.685863, -0.172023, -0.685863, -0.172023)
+bones/5/rotation = Quaternion(0.36334, -0.36334, 0.606617, 0.606617)
 
 [node name="Head" parent="Animations/Skeleton3D" index="0"]
-transform = Transform3D(1, -4.59556e-17, -4.80771e-18, 4.59556e-17, 0.978348, 0.206967, -4.80767e-18, -0.206967, 0.978348, -4.16185e-11, 0.00711598, -1.15125e-09)
+transform = Transform3D(1, -2.62522e-23, -8.66273e-31, 2.62522e-23, 1, 1.62921e-07, -3.41074e-30, -1.62921e-07, 1, -4.16185e-11, 0.00711598, -1.15125e-09)
 
 [node name="character_witchHead" type="MeshInstance3D" parent="Animations/Skeleton3D/Head" index="0"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15256e-09, -5.96047e-09, 7.15256e-09, 0.01, -4.56844e-10, -7.88704e-05, 3.52272e-09)
@@ -412,7 +418,7 @@ mesh = SubResource("ArrayMesh_oi04e")
 skeleton = NodePath("")
 
 [node name="Body" parent="Animations/Skeleton3D" index="1"]
-transform = Transform3D(1, -5.31714e-24, -8.66272e-31, 5.31714e-24, 1, 1.62921e-07, 1.88079e-37, -1.62921e-07, 1, 0, 0, 0)
+transform = Transform3D(1, -5.31716e-24, -8.66274e-31, 5.31716e-24, 1, 1.62921e-07, -1.45761e-36, -1.62921e-07, 1, 0, 0, 0)
 
 [node name="character_witch" type="MeshInstance3D" parent="Animations/Skeleton3D/Body" index="0"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15256e-09, -5.96047e-09, 7.15256e-09, 0.01, 0, 0, 0)
@@ -420,7 +426,7 @@ mesh = SubResource("ArrayMesh_duy4n")
 skeleton = NodePath("")
 
 [node name="ArmLeft" parent="Animations/Skeleton3D" index="2"]
-transform = Transform3D(-0.473614, 0.279174, -0.835315, 0.392289, -0.782288, -0.483875, -0.788542, -0.556855, 0.260986, 0.00121547, 0.00670866, -0.000663061)
+transform = Transform3D(8.66274e-31, 0.471937, -0.881632, -1.62921e-07, -0.881632, -0.471937, -1, 1.43636e-07, 7.68882e-08, 0.0014, 0.00691598, -1.17522e-09)
 
 [node name="character_witchArmLeft" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmLeft" index="0"]
 transform = Transform3D(5.96047e-09, -7.15256e-09, -0.01, 0.00471937, -0.00881633, 9.11889e-09, -0.00881633, -0.00471937, -1.87939e-09, -3.01922e-09, 0.000813968, -0.000290719)
@@ -428,7 +434,7 @@ mesh = SubResource("ArrayMesh_ekx3r")
 skeleton = NodePath("")
 
 [node name="ArmRight" parent="Animations/Skeleton3D" index="3"]
-transform = Transform3D(-0.473614, -0.540289, -0.695541, -0.437571, -0.541019, 0.718213, -0.764344, 0.644504, 0.0198196, -0.0014, 0.00691598, -1.13708e-09)
+transform = Transform3D(8.66274e-31, -0.471937, -0.881632, -1.62921e-07, -0.881632, 0.471937, -1, 1.43636e-07, -7.68882e-08, -0.0014, 0.00691598, -1.13708e-09)
 
 [node name="character_witchArmRight" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmRight" index="0"]
 transform = Transform3D(5.96047e-09, -7.15256e-09, -0.01, -0.00471937, -0.00881632, 3.49296e-09, -0.00881632, 0.00471937, -8.6305e-09, -5.40317e-09, 0.000813974, 0.00029073)
@@ -436,9 +442,9 @@ mesh = SubResource("ArrayMesh_ylai6")
 skeleton = NodePath("")
 
 [node name="HandLeft" parent="Animations/Skeleton3D" index="4"]
-transform = Transform3D(-0.853943, 0.476418, 0.2093, 0.30004, 0.12217, 0.946071, 0.425156, 0.870689, -0.247271, 0.0027535, 0.00239887, -0.0037309)
+transform = Transform3D(-1, -8.66274e-31, -5.96046e-07, -5.96046e-07, 1.62921e-07, 1, 9.23706e-14, 1, -1.62921e-07, 0.004, 0.00205887, -2.06944e-10)
 
 [node name="HandRight" parent="Animations/Skeleton3D" index="5"]
-transform = Transform3D(-0.907624, 0.0817401, 0.41175, 0.33861, 0.722304, 0.60301, -0.248118, 0.686729, -0.683258, -0.00437657, 0.00393539, 0.00355071)
+transform = Transform3D(-1, -8.66274e-31, 5.96046e-07, 5.96046e-07, 1.62921e-07, 1, -9.23706e-14, 1, -1.62921e-07, -0.004, 0.00205887, -4.76143e-10)
 
 [editable path="Animations"]

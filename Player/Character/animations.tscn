@@ -3564,10 +3564,6 @@ transform = Transform3D(1, 2.09673e-17, -9.9209e-19, -2.09673e-17, 0.995532, -0.
 bone_name = "Head"
 bone_idx = 1
 
-[node name="Camera3D" type="Camera3D" parent="Skeleton3D/Head"]
-transform = Transform3D(-1, 2.26267e-08, -8.44439e-08, 0, 0.965926, 0.258819, 8.74228e-08, 0.258819, -0.965926, 0, 0.015, -0.025)
-fov = 90.0
-
 [node name="Body" type="BoneAttachment3D" parent="Skeleton3D"]
 transform = Transform3D(1, 6.62636e-17, -1.01178e-17, -6.62636e-17, 0.954433, -0.298425, -1.0118e-17, 0.298425, 0.954433, 0, 0, 0)
 bone_name = "Body"
@@ -3592,6 +3588,10 @@ bone_idx = 3
 transform = Transform3D(-0.907624, 0.0817401, 0.41175, 0.397225, 0.484453, 0.779434, -0.135763, 0.87099, -0.472171, -0.00419204, 0.00269644, 0.00525805)
 bone_name = "handSlotRight"
 bone_idx = 5
+
+[node name="Camera3D" type="Camera3D" parent="Skeleton3D"]
+transform = Transform3D(-0.01, 2.2627e-10, -8.44439e-10, -8.25515e-11, 0.0093717, 0.00348873, 8.70322e-10, 0.00348873, -0.0093717, -4.16218e-11, 0.0240854, -0.0213483)
+fov = 90.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
