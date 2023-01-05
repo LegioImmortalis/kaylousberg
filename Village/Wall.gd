@@ -18,10 +18,10 @@ func _ready():
 	#	add_child.call_deferred(wallInstance)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 		
-func wallSegment(length,rotation,segmentPosition):
+func wallSegment(length,rota,segmentPosition):
 	var vectora=Vector3(4,0,0)
 	var r=0
-	if rotation == "z":
+	if rota == "z":
 		vectora=Vector3(0,0,4)
 		r=-90
 	for i in length:
@@ -31,10 +31,10 @@ func wallSegment(length,rotation,segmentPosition):
 		add_child.call_deferred(wallInstance)
 	return segmentPosition+(length+1)*vectora
 	
-func wallCorner(rotation,segmentPosition):
+func wallCorner(rota,segmentPosition):
 	var cornerInstance = corner.instantiate()
 	cornerInstance.translate(segmentPosition)
-	cornerInstance.rotate(Vector3.UP,deg_to_rad(rotation))
+	cornerInstance.rotate(Vector3.UP,deg_to_rad(rota))
 	add_child.call_deferred(cornerInstance)
 	
 #func wallCorner(rotation,segmentPosition):
@@ -44,5 +44,5 @@ func wallCorner(rotation,segmentPosition):
 #	wallInstance.translate(segmentPosition)
 #	add_child.call_deferred(wallInstance)
 		
-func _process(delta):
-	pass
+#func _process(delta):
+#	pass

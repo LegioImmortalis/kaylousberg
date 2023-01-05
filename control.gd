@@ -17,9 +17,9 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	if Input.is_action_pressed("ui_right"):
-		pass
+#func _process(delta):
+#	if Input.is_action_pressed("ui_right"):
+#		pass
 
 #func _on_witch_pressed():
 #	$"..".remove_child(child_scene)

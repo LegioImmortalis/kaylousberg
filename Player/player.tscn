@@ -1,13 +1,13 @@
-[gd_scene load_steps=11 format=3 uid="uid://cab5gutm4mj6x"]
+[gd_scene load_steps=11 format=3 uid="uid://h5v0ymnynjge"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_jg6tv"]
+[ext_resource type="Script" path="res://Player/Character/character_mage/spawnerScript.gd" id="3_c0823"]
 [ext_resource type="Script" path="res://control.gd" id="3_ooj08"]
-[ext_resource type="Script" path="res://Player/Mage.gd" id="3_wgoqv"]
-[ext_resource type="Script" path="res://Player/Jack.gd" id="4_tola1"]
-[ext_resource type="Script" path="res://Player/Barbarian.gd" id="5_vrulu"]
-[ext_resource type="Script" path="res://Player/Knight.gd" id="6_nbrhs"]
-[ext_resource type="Script" path="res://Player/Rogue.gd" id="7_5600r"]
-[ext_resource type="Script" path="res://Player/Witch.gd" id="8_1mt45"]
+[ext_resource type="Script" path="res://Player/Character/character_jack/spawnerScript.gd" id="4_qfp66"]
+[ext_resource type="Script" path="res://Player/Character/character_barbarian/spawnerScript.gd" id="5_8x0du"]
+[ext_resource type="Script" path="res://Player/Character/character_knight/spawnerScript.gd" id="6_llyo3"]
+[ext_resource type="Script" path="res://Player/Character/character_rogue/spawnerScript.gd" id="7_oi02c"]
+[ext_resource type="Script" path="res://Player/Character/character_witch/spawnerScript.gd" id="8_rp2o2"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_io1ox"]
 radius = 0.1
@@ -15,15 +15,11 @@ radius = 0.1
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ubf6t"]
 
 [node name="Player" type="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
 script = ExtResource("1_jg6tv")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.650229, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
 shape = SubResource("SphereShape3D_io1ox")
-
-[node name="Camera3D" type="Camera3D" parent="CollisionShape3D"]
-transform = Transform3D(1, 0, 0, 0, 0.998441, 0.0558215, 0, -0.0558215, 0.998441, 0, 1, 2)
 
 [node name="CharacterSelector" type="VBoxContainer" parent="."]
 offset_left = 50.0
@@ -37,21 +33,21 @@ offset_right = 85.0
 offset_bottom = 31.0
 text = "Mage
 "
-script = ExtResource("3_wgoqv")
+script = ExtResource("3_c0823")
 
 [node name="Jack" type="Button" parent="CharacterSelector"]
 offset_top = 35.0
 offset_right = 85.0
 offset_bottom = 66.0
 text = "Jack"
-script = ExtResource("4_tola1")
+script = ExtResource("4_qfp66")
 
 [node name="Barbarian" type="Button" parent="CharacterSelector"]
 offset_top = 70.0
 offset_right = 85.0
 offset_bottom = 101.0
 text = "Barbarian"
-script = ExtResource("5_vrulu")
+script = ExtResource("5_8x0du")
 
 [node name="Knight" type="Button" parent="CharacterSelector"]
 offset_top = 105.0
@@ -59,28 +55,31 @@ offset_right = 85.0
 offset_bottom = 136.0
 text = "Knight
 "
-script = ExtResource("6_nbrhs")
+script = ExtResource("6_llyo3")
 
 [node name="Rogue" type="Button" parent="CharacterSelector"]
 offset_top = 140.0
 offset_right = 85.0
 offset_bottom = 171.0
 text = "Rogue"
-script = ExtResource("7_5600r")
+script = ExtResource("7_oi02c")
 
 [node name="Witch" type="Button" parent="CharacterSelector"]
 offset_top = 175.0
 offset_right = 85.0
 offset_bottom = 206.0
 text = "Witch"
-script = ExtResource("8_1mt45")
+script = ExtResource("8_rp2o2")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_ubf6t")
 
+[node name="CharacterNode" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.998441, 0.0558215, 0, -0.0558215, 0.998441, 0, 0, 0)
+
 [connection signal="pressed" from="CharacterSelector/Mage" to="CharacterSelector/Mage" method="_on_pressed"]
-[connection signal="pressed" from="CharacterSelector/Jack" to="." method="_on_jack_pressed"]
+[connection signal="pressed" from="CharacterSelector/Jack" to="CharacterSelector/Jack" method="_on_pressed"]
 [connection signal="pressed" from="CharacterSelector/Barbarian" to="CharacterSelector/Barbarian" method="_on_pressed"]
-[connection signal="pressed" from="CharacterSelector/Knight" to="CharacterSelector" method="_on_knight_pressed"]
-[connection signal="pressed" from="CharacterSelector/Rogue" to="CharacterSelector" method="_on_rogue_pressed"]
-[connection signal="pressed" from="CharacterSelector/Witch" to="CharacterSelector" method="_on_witch_pressed"]
+[connection signal="pressed" from="CharacterSelector/Knight" to="CharacterSelector/Knight" method="_on_pressed"]
+[connection signal="pressed" from="CharacterSelector/Rogue" to="CharacterSelector/Rogue" method="_on_pressed"]
+[connection signal="pressed" from="CharacterSelector/Witch" to="CharacterSelector/Witch" method="_on_pressed"]
