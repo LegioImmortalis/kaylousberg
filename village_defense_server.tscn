@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://c1o7wn1dc0qpr" path="res://Village/village.tscn" id="5_ktu8k"]
 
 [sub_resource type="Environment" id="Environment_dbbf6"]
+ssil_enabled = true
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_rop3y"]
 

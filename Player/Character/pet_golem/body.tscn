@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckjq27xajqgdu"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_n8qng"]
+bottom_radius = 0.3
+height = 1.0
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_uom3e"]
+radius = 0.3
+height = 1.0
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_f2tfo"]
+height = 0.1
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_upsm2"]
+top_radius = 0.2
+height = 0.3
+
+[node name="Body" type="MeshInstance3D"]
+transform = Transform3D(0.00996195, -0.000869435, 6.08032e-05, 0.000871558, 0.00993768, -0.000694918, -5.68008e-09, 0.000697572, 0.00997564, 0, 0, 0)
+mesh = SubResource("CylinderMesh_n8qng")
+skeleton = NodePath("../../../../Node3D")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, 0)
+mesh = SubResource("CapsuleMesh_uom3e")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
+mesh = SubResource("CylinderMesh_f2tfo")
+skeleton = NodePath("../../../../../Node3D")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0)
+mesh = SubResource("CylinderMesh_upsm2")

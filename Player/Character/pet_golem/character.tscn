@@ -1,0 +1,100 @@
+[gd_scene load_steps=12 format=3 uid="uid://blqb8xft8n1kq"]
+
+[ext_resource type="PackedScene" uid="uid://do0rj8e3b1qhv" path="res://Player/Character/animations.tscn" id="1_4pw72"]
+[ext_resource type="Texture2D" uid="uid://bqg0eaibub3r3" path="res://Player/Character/pet_golem/crateMetal.png" id="2_lm7me"]
+[ext_resource type="PackedScene" uid="uid://ckjq27xajqgdu" path="res://Player/Character/pet_golem/body.tscn" id="3_tv3em"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_aoei5"]
+rings = 3
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xwgcc"]
+albedo_texture = ExtResource("2_lm7me")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_bw57y"]
+radius = 0.15
+height = 1.0
+radial_segments = 4
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rijd0"]
+albedo_texture = ExtResource("2_lm7me")
+
+[sub_resource type="SphereMesh" id="SphereMesh_ross4"]
+radius = 0.2
+height = 0.2
+radial_segments = 4
+rings = 1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8q2sk"]
+albedo_texture = ExtResource("2_lm7me")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7e22d"]
+albedo_texture = ExtResource("2_lm7me")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qow4q"]
+albedo_texture = ExtResource("2_lm7me")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="Animations" parent="." instance=ExtResource("1_4pw72")]
+
+[node name="Skeleton3D" parent="Animations" index="1"]
+bones/0/rotation = Quaternion(-8.14603e-08, -2.16568e-31, 2.65857e-24, 1)
+bones/1/rotation = Quaternion(0.044548, 1.68474e-23, -9.89163e-18, 0.999007)
+bones/2/rotation = Quaternion(0.685863, 0.172023, -0.685863, 0.172023)
+bones/3/rotation = Quaternion(-0.606617, 0.606617, -0.36334, -0.36334)
+bones/4/rotation = Quaternion(0.705107, -0.285918, -0.646723, -0.0531369)
+bones/5/rotation = Quaternion(0.300506, -0.376591, 0.679877, 0.55285)
+
+[node name="Head" parent="Animations/Skeleton3D" index="0"]
+transform = Transform3D(1, 1.97636e-17, -8.81271e-19, -1.97636e-17, 0.996031, -0.0890074, -8.81336e-19, 0.0890074, 0.996031, -4.16185e-11, 0.00711598, -1.15125e-09)
+
+[node name="Head" type="MeshInstance3D" parent="Animations/Skeleton3D/Head" index="0"]
+transform = Transform3D(0.01, 2.06259e-10, 5.96023e-09, -3.44291e-10, 0.00999848, 0.000174517, -5.95236e-09, -0.000174517, 0.00999848, -0.000620199, 0.00485442, 0.000409847)
+mesh = SubResource("SphereMesh_aoei5")
+skeleton = NodePath("../../Body/Body")
+surface_material_override/0 = SubResource("StandardMaterial3D_xwgcc")
+
+[node name="Body" parent="Animations/Skeleton3D" index="1"]
+transform = Transform3D(1, -5.31714e-24, -8.66272e-31, 5.31714e-24, 1, 1.62921e-07, 1.88079e-37, -1.62921e-07, 1, 0, 0, 0)
+
+[node name="Body" parent="Animations/Skeleton3D/Body" index="0" instance=ExtResource("3_tv3em")]
+surface_material_override/0 = null
+
+[node name="ArmLeft" parent="Animations/Skeleton3D" index="2"]
+transform = Transform3D(8.66272e-31, 0.471937, -0.881632, -1.62921e-07, -0.881632, -0.471937, -1, 1.43636e-07, 7.68882e-08, 0.0014, 0.00691598, -1.17522e-09)
+
+[node name="armLeft" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmLeft" index="0"]
+transform = Transform3D(0.000631094, 0.00180443, -0.00981559, 0.00191038, -0.00967516, -0.00165579, -0.00979552, -0.00177066, -0.00095531, -0.00138118, 0.00605159, -0.0012394)
+mesh = SubResource("CapsuleMesh_bw57y")
+skeleton = NodePath("../../../../Node3D")
+surface_material_override/0 = SubResource("StandardMaterial3D_rijd0")
+
+[node name="Shoulder" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmLeft/armLeft"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+mesh = SubResource("SphereMesh_ross4")
+surface_material_override/0 = SubResource("StandardMaterial3D_8q2sk")
+
+[node name="ArmRight" parent="Animations/Skeleton3D" index="3"]
+transform = Transform3D(-3.57628e-07, -0.471936, -0.881633, -0.334476, -0.830855, 0.444754, -0.942404, 0.294885, -0.157851, -0.0014, 0.00691598, -1.13708e-09)
+
+[node name="armRight" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmRight" index="0"]
+transform = Transform3D(-0.000482312, -0.00321774, 0.00945587, 0.00360614, -0.00888447, -0.00283936, 0.00931467, 0.00327298, 0.00158887, 0.00142717, 0.00703887, 0.00100676)
+mesh = SubResource("CapsuleMesh_bw57y")
+skeleton = NodePath("../../../../Node3D")
+surface_material_override/0 = SubResource("StandardMaterial3D_7e22d")
+
+[node name="Shoulder" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmRight/armRight"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.4, 0)
+mesh = SubResource("SphereMesh_ross4")
+surface_material_override/0 = SubResource("StandardMaterial3D_qow4q")
+
+[node name="HandLeft" parent="Animations/Skeleton3D" index="4"]
+transform = Transform3D(-1, -8.66272e-31, -5.96046e-07, -5.96046e-07, 1.62921e-07, 1, 9.23706e-14, 1, -1.62921e-07, 0.004, 0.00205887, -2.06944e-10)
+
+[node name="HandRight" parent="Animations/Skeleton3D" index="5"]
+transform = Transform3D(-0.975313, 0.208107, -0.0738614, -7.7486e-07, 0.334476, 0.942405, 0.220826, 0.91914, -0.326218, -0.004, 0.00233862, 0.00162459)
+
+[editable path="Animations"]

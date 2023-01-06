@@ -84,7 +84,7 @@ func _physics_process(delta):
 			velocity.x = move_toward(velocity.x, 0, speed)
 			velocity.z = move_toward(velocity.z, 0, speed)
 			
-		print(velocity)	
+		#print(velocity)	
 		rotate_y(-input_mouse.x/10000)
 		animations.get_node("Skeleton3D/Camera3D").rotate_x(input_mouse.y/10000)
 		#print(animations.get_node("Skeleton3D/Camera3D").project_ray_origin(self))
@@ -112,11 +112,9 @@ const RAY_LENGTH = 1000.0
 #			print(to)
 
 func dash(animation_player):
-	print("start")
 	speed = BASESPEED*DASH
 	animation_player.play("KayKit Animated Character|DashFront")
 	await(get_tree().create_timer(1.0))
-	print("done")
 	#animation_player.play("KayKit Animated Character|DashBack")
 	#animation_player.play("KayKit Animated Character|DashLeft")
 	#animation_player.play("KayKit Animated Character|DashRight")
@@ -147,14 +145,12 @@ func _handle_movement(animation,input_dir,direction):
 	if not is_on_floor():	
 		if Input.is_action_just_pressed("dash"):
 			animation = "KayKit Animated Character|Roll"
-			print("AirRoll")
 		if is_on_wall():
 			if Input.is_key_pressed(KEY_SPACE):
 				if velocity.y <= 0:
 					velocity.y = 0
 					animation = "KayKit Animated Character|Climbing"
 			if  Input.is_action_just_pressed("ui_accept"):
-				print("Hop")
 				animation = "KayKit Animated Character|Hop"
 				velocity.y = JUMP_VELOCITY
 			if Input.is_action_just_pressed("dash"):

@@ -9,18 +9,18 @@
 [ext_resource type="Script" path="res://Player/Character/character_rogue/spawnerScript.gd" id="7_oi02c"]
 [ext_resource type="Script" path="res://Player/Character/character_witch/spawnerScript.gd" id="8_rp2o2"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rtctg"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xa7vi"]
 radius = 0.75
 height = 1.5
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_qb21l"]
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_21mbe"]
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_jg6tv")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
-shape = SubResource("CapsuleShape3D_rtctg")
+shape = SubResource("CapsuleShape3D_xa7vi")
 
 [node name="CharacterSelector" type="VBoxContainer" parent="."]
 offset_left = 50.0
@@ -62,7 +62,7 @@ text = "Witch"
 script = ExtResource("8_rp2o2")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
-replication_config = SubResource("SceneReplicationConfig_qb21l")
+replication_config = SubResource("SceneReplicationConfig_21mbe")
 
 [node name="CharacterNode" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.998441, 0.0558215, 0, -0.0558215, 0.998441, 0, 0, 0)
