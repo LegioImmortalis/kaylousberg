@@ -1,6 +1,6 @@
-[gd_scene load_steps=32 format=3 uid="uid://do0rj8e3b1qhv"]
+[gd_scene load_steps=33 format=3 uid="uid://do0rj8e3b1qhv"]
 
-[sub_resource type="Animation" id="Animation_sg7cv"]
+[sub_resource type="Animation" id="Animation_6vf7q"]
 resource_name = "KayKit Animated Character|Attack(1h)"
 length = 0.833333
 tracks/0/type = "position_3d"
@@ -116,7 +116,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_b3q30"]
+[sub_resource type="Animation" id="Animation_ly1aq"]
 resource_name = "KayKit Animated Character|AttackCombo"
 length = 1.6
 tracks/0/type = "position_3d"
@@ -232,7 +232,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_k2ahn"]
+[sub_resource type="Animation" id="Animation_qivrr"]
 resource_name = "KayKit Animated Character|AttackSpinning"
 length = 0.8
 tracks/0/type = "position_3d"
@@ -348,7 +348,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_nhbl3"]
+[sub_resource type="Animation" id="Animation_7p3hh"]
 resource_name = "KayKit Animated Character|BasePose"
 length = 0.0333333
 tracks/0/type = "position_3d"
@@ -464,7 +464,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_405nt"]
+[sub_resource type="Animation" id="Animation_2xtt0"]
 resource_name = "KayKit Animated Character|Block"
 length = 1.43333
 tracks/0/type = "position_3d"
@@ -580,7 +580,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_bk7lc"]
+[sub_resource type="Animation" id="Animation_kjyra"]
 resource_name = "KayKit Animated Character|Cheer"
 length = 1.53333
 tracks/0/type = "position_3d"
@@ -696,7 +696,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_wfuw6"]
+[sub_resource type="Animation" id="Animation_7kuir"]
 resource_name = "KayKit Animated Character|Climbing"
 length = 1.6
 tracks/0/type = "position_3d"
@@ -812,7 +812,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_frtp6"]
+[sub_resource type="Animation" id="Animation_ycpoo"]
 resource_name = "KayKit Animated Character|Dance"
 length = 1.66667
 tracks/0/type = "position_3d"
@@ -928,7 +928,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_sdg7p"]
+[sub_resource type="Animation" id="Animation_2rncl"]
 resource_name = "KayKit Animated Character|DashBack"
 length = 0.8
 tracks/0/type = "position_3d"
@@ -1044,7 +1044,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_rdl3a"]
+[sub_resource type="Animation" id="Animation_qsklv"]
 resource_name = "KayKit Animated Character|DashFront"
 length = 0.733333
 tracks/0/type = "position_3d"
@@ -1160,7 +1160,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_bmpcq"]
+[sub_resource type="Animation" id="Animation_33bsv"]
 resource_name = "KayKit Animated Character|DashLeft"
 tracks/0/type = "position_3d"
 tracks/0/imported = true
@@ -1275,7 +1275,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_am7cf"]
+[sub_resource type="Animation" id="Animation_tjb2p"]
 resource_name = "KayKit Animated Character|DashRight"
 tracks/0/type = "position_3d"
 tracks/0/imported = true
@@ -1390,7 +1390,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_20k3s"]
+[sub_resource type="Animation" id="Animation_3sbr6"]
 resource_name = "KayKit Animated Character|Defeat"
 length = 0.766667
 tracks/0/type = "position_3d"
@@ -1506,7 +1506,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_5kbjh"]
+[sub_resource type="Animation" id="Animation_djw3u"]
 resource_name = "KayKit Animated Character|HeavyAttack"
 length = 1.06667
 tracks/0/type = "position_3d"
@@ -1622,7 +1622,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1, 0.4, 1, 1, 1, 1, 0.433333, 1, 1, 1.00531, 1.1388, 0.466667, 1, 1, 1.01517, 1.39658, 0.5, 1, 1, 1.02048, 1.53539, 0.533333, 1, 1, 1.01728, 1.45173, 0.6, 1, 1, 1.0032, 1.08365, 0.633333, 1, 1, 1, 1, 1.06667, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_030oa"]
+[sub_resource type="Animation" id="Animation_ij6cd"]
 resource_name = "KayKit Animated Character|Hop"
 length = 0.8
 tracks/0/type = "position_3d"
@@ -1738,7 +1738,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_lngb2"]
+[sub_resource type="Animation" id="Animation_24llr"]
 resource_name = "KayKit Animated Character|Idle"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -1854,7 +1854,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_e3ihm"]
+[sub_resource type="Animation" id="Animation_nyo2q"]
 resource_name = "KayKit Animated Character|Interact"
 length = 1.43333
 tracks/0/type = "position_3d"
@@ -1970,7 +1970,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_mqx48"]
+[sub_resource type="Animation" id="Animation_12h5u"]
 resource_name = "KayKit Animated Character|Jump"
 length = 1.3
 tracks/0/type = "position_3d"
@@ -2086,7 +2086,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1, 0.0333333, 1, 1, 1, 1.00933, 0.0666667, 1, 1, 1, 1.03466, 0.1, 1, 1, 1, 1.07199, 0.133333, 1, 1, 1, 1.11732, 0.2, 1, 1, 1, 1.21598, 0.233333, 1, 1, 1, 1.26131, 0.266667, 1, 1, 1, 1.29864, 0.3, 1, 1, 1, 1.32397, 0.333333, 1, 1, 1, 1.3333, 0.366667, 1, 1, 1, 1.24689, 0.4, 1, 1, 1, 1.08641, 0.433333, 1, 1, 1, 1, 1.3, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_287cg"]
+[sub_resource type="Animation" id="Animation_kii5i"]
 resource_name = "KayKit Animated Character|LayingDownIdle"
 length = 1.33333
 tracks/0/type = "position_3d"
@@ -2202,7 +2202,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_h72fl"]
+[sub_resource type="Animation" id="Animation_i8cc1"]
 resource_name = "KayKit Animated Character|PickUp"
 length = 0.566667
 tracks/0/type = "position_3d"
@@ -2318,7 +2318,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_6runl"]
+[sub_resource type="Animation" id="Animation_esaee"]
 resource_name = "KayKit Animated Character|Roll"
 length = 1.1
 tracks/0/type = "position_3d"
@@ -2434,7 +2434,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_2rxy3"]
+[sub_resource type="Animation" id="Animation_5p06x"]
 resource_name = "KayKit Animated Character|Run"
 length = 0.8
 tracks/0/type = "position_3d"
@@ -2550,7 +2550,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_gljjv"]
+[sub_resource type="Animation" id="Animation_56o7p"]
 resource_name = "KayKit Animated Character|Shoot(1h)"
 length = 1.13333
 tracks/0/type = "position_3d"
@@ -2666,7 +2666,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_oirhd"]
+[sub_resource type="Animation" id="Animation_p0gyd"]
 resource_name = "KayKit Animated Character|Shoot(2h)"
 length = 0.766667
 tracks/0/type = "position_3d"
@@ -2782,7 +2782,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_03anv"]
+[sub_resource type="Animation" id="Animation_3u54p"]
 resource_name = "KayKit Animated Character|Shoot(2h)Bow"
 tracks/0/type = "position_3d"
 tracks/0/imported = true
@@ -2897,7 +2897,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_5euaj"]
+[sub_resource type="Animation" id="Animation_ggno2"]
 resource_name = "KayKit Animated Character|Shooting(1h)"
 length = 1.8
 tracks/0/type = "position_3d"
@@ -3013,7 +3013,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_olgjd"]
+[sub_resource type="Animation" id="Animation_ubn2i"]
 resource_name = "KayKit Animated Character|Shooting(2h)"
 length = 1.56667
 tracks/0/type = "position_3d"
@@ -3129,7 +3129,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_f4x8j"]
+[sub_resource type="Animation" id="Animation_0ldlx"]
 resource_name = "KayKit Animated Character|Throw"
 length = 1.13333
 tracks/0/type = "position_3d"
@@ -3245,7 +3245,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_uuhxg"]
+[sub_resource type="Animation" id="Animation_om4jq"]
 resource_name = "KayKit Animated Character|Walk"
 length = 1.06667
 tracks/0/type = "position_3d"
@@ -3361,7 +3361,7 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="Animation" id="Animation_7upuf"]
+[sub_resource type="Animation" id="Animation_j6hux"]
 resource_name = "KayKit Animated Character|Wave"
 length = 1.5
 tracks/0/type = "position_3d"
@@ -3477,42 +3477,163 @@ tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_klc5h"]
+[sub_resource type="Animation" id="Animation_dh7er"]
+resource_name = "KayKit Animated Character|Sneak"
+length = 2.13334
+tracks/0/type = "position_3d"
+tracks/0/imported = true
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton3D:Body")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0, 1, 0, 0, 0)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = true
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton3D:Body")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0, 1, -0.0348664, -0.00152229, -0.0435928, 0.99844, 0.0333333, 1, -0.0340856, -0.0015224, -0.0426166, 0.998509, 0.0666667, 1, -0.0318782, -0.00152268, -0.0398568, 0.998696, 0.1, 1, -0.0284459, -0.00152309, -0.0355654, 0.998961, 0.133333, 1, -0.0239904, -0.00152354, -0.0299947, 0.999261, 0.166667, 1, -0.0187138, -0.00152398, -0.0233975, 0.99955, 0.2, 1, -0.0128198, -0.00152435, -0.0160283, 0.999788, 0.233333, 1, -0.00651326, -0.00152458, -0.00814333, 0.999944, 0.266667, 1, -8.14603e-08, -0.00152467, 1.242e-10, 0.999999, 0.3, 1, 0.0065131, -0.00152458, 0.00814334, 0.999944, 0.333333, 1, 0.0128197, -0.00152434, 0.0160284, 0.999788, 0.366667, 1, 0.0187137, -0.00152398, 0.0233975, 0.99955, 0.4, 1, 0.0239902, -0.00152354, 0.0299947, 0.999261, 0.433333, 1, 0.0284458, -0.00152308, 0.0355654, 0.998961, 0.5, 1, 0.031878, -0.00152268, 0.0398568, 0.998696, 0.566667, 1, 0.0340854, -0.0015224, 0.0426166, 0.998509, 0.6, 1, 0.031878, -0.00152269, 0.0398568, 0.998696, 0.633333, 1, 0.0284458, -0.00152309, 0.0355654, 0.998961, 0.666667, 1, 0.0239902, -0.00152355, 0.0299947, 0.999261, 0.7, 1, 0.0187137, -0.00152399, 0.0233975, 0.99955, 0.733333, 1, 0.0128197, -0.00152436, 0.0160284, 0.999788, 0.766667, 1, 0.0065131, -0.00152459, 0.00814334, 0.999944, 0.8, 1, -8.14603e-08, -0.00152468, 1.24201e-10, 0.999999, 0.833333, 1, -0.00651326, -0.0015246, -0.00814334, 0.999944, 0.866667, 1, -0.0128198, -0.00152436, -0.0160284, 0.999788, 0.9, 1, -0.0187138, -0.001524, -0.0233975, 0.99955, 0.933333, 1, -0.0239904, -0.00152355, -0.0299947, 0.999261, 0.966667, 1, -0.0284459, -0.0015231, -0.0355654, 0.998961, 1, 1, -0.0318782, -0.00152269, -0.0398568, 0.998696, 1.03333, 1, -0.0340856, -0.00152241, -0.0426166, 0.998509, 1.06667, 1, -0.0348664, -0.00152229, -0.0435928, 0.99844)
+tracks/2/type = "scale_3d"
+tracks/2/imported = true
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton3D:Body")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0, 1, 1, 1, 1)
+tracks/3/type = "position_3d"
+tracks/3/imported = true
+tracks/3/enabled = true
+tracks/3/path = NodePath("Skeleton3D:Head")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = PackedFloat32Array(0, 1, -4.16185e-11, 0.00711598, 8.08647e-12)
+tracks/4/type = "rotation_3d"
+tracks/4/imported = true
+tracks/4/enabled = true
+tracks/4/path = NodePath("Skeleton3D:Head")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = PackedFloat32Array(0, 1, 0.0435779, 0.00190264, 0.0435779, 0.998097, 0.0333333, 1, 0.0430908, 0.00188138, 0.0426009, 0.998161, 0.0666667, 1, 0.0417135, 0.00182125, 0.0398389, 0.998333, 0.1, 1, 0.039572, 0.00172775, 0.035545, 0.998583, 0.133333, 1, 0.0367919, 0.00160636, 0.0299721, 0.998872, 0.166667, 1, 0.0334991, 0.0014626, 0.0233737, 0.999164, 0.2, 1, 0.0298202, 0.00130198, 0.0160046, 0.999426, 0.233333, 1, 0.0258828, 0.00113007, 0.00812072, 0.999631, 0.266667, 1, 0.0218149, 0.000952458, -2.0782e-05, 0.999762, 0.3, 1, 0.0177452, 0.000774771, -0.0081623, 0.999809, 0.333333, 1, 0.0138025, 0.000602632, -0.0160461, 0.999776, 0.366667, 1, 0.0101157, 0.000441666, -0.0234153, 0.999675, 0.4, 1, 0.00681331, 0.000297479, -0.0300136, 0.999526, 0.433333, 1, 0.00402319, 0.000175661, -0.0355865, 0.999359, 0.466667, 1, 0.00187286, 8.17753e-05, -0.0398804, 0.999203, 0.5, 1, 0.000489426, 2.1374e-05, -0.0426424, 0.99909, 0.566667, 1, 0.000489424, 2.13743e-05, -0.0426424, 0.99909, 0.6, 1, 0.00187285, 8.17756e-05, -0.0398804, 0.999203, 0.633333, 1, 0.00402319, 0.000175661, -0.0355865, 0.999358, 0.666667, 1, 0.00681331, 0.00029748, -0.0300136, 0.999526, 0.7, 1, 0.0101157, 0.000441666, -0.0234152, 0.999675, 0.733333, 1, 0.0138025, 0.000602632, -0.0160461, 0.999776, 0.766667, 1, 0.0177452, 0.000774771, -0.00816229, 0.999809, 0.8, 1, 0.0218149, 0.000952458, -2.0782e-05, 0.999762, 0.833333, 1, 0.0258828, 0.00113007, 0.00812073, 0.999631, 0.866667, 1, 0.0298202, 0.00130198, 0.0160046, 0.999426, 0.9, 1, 0.0334991, 0.0014626, 0.0233737, 0.999164, 0.933333, 1, 0.0367919, 0.00160636, 0.0299721, 0.998872, 0.966667, 1, 0.039572, 0.00172775, 0.035545, 0.998583, 1, 1, 0.0417135, 0.00182125, 0.0398389, 0.998333, 1.03333, 1, 0.0430907, 0.00188138, 0.0426008, 0.998161, 1.06667, 1, 0.0435779, 0.00190264, 0.0435779, 0.998097)
+tracks/5/type = "scale_3d"
+tracks/5/imported = true
+tracks/5/enabled = true
+tracks/5/path = NodePath("Skeleton3D:Head")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = PackedFloat32Array(0, 1, 1, 1, 1)
+tracks/6/type = "position_3d"
+tracks/6/imported = true
+tracks/6/enabled = true
+tracks/6/path = NodePath("Skeleton3D:armLeft")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = PackedFloat32Array(0, 1, 0.0014, 0.00691598, -4.84622e-11)
+tracks/7/type = "rotation_3d"
+tracks/7/imported = true
+tracks/7/enabled = true
+tracks/7/path = NodePath("Skeleton3D:armLeft")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = PackedFloat32Array(0, 1, 0.702449, 0.260074, -0.657542, 0.0810279, 0.0333333, 1, 0.70221, 0.258161, -0.658295, 0.0830702, 0.0666667, 1, 0.701503, 0.252736, -0.660398, 0.0888461, 0.1, 1, 0.700306, 0.24425, -0.663583, 0.0978312, 0.133333, 1, 0.698577, 0.233149, -0.667564, 0.109497, 0.166667, 1, 0.696272, 0.219887, -0.672049, 0.123306, 0.2, 1, 0.693369, 0.20494, -0.676757, 0.138706, 0.233333, 1, 0.689879, 0.188809, -0.681433, 0.155135, 0.266667, 1, 0.685863, 0.172023, -0.685863, 0.172023, 0.3, 1, -0.681434, -0.155132, 0.68988, -0.188806, 0.333333, 1, -0.676758, -0.138703, 0.69337, -0.204937, 0.366667, 1, -0.67205, -0.123304, 0.696273, -0.219884, 0.4, 1, -0.667565, -0.109495, 0.698578, -0.233146, 0.433333, 1, -0.663583, -0.0978293, 0.700307, -0.244247, 0.466667, 1, -0.660398, -0.0888444, 0.701504, -0.252733, 0.5, 1, -0.658296, -0.0830688, 0.702211, -0.258159, 0.566667, 1, -0.658296, -0.083069, 0.702211, -0.25816, 0.6, 1, -0.660398, -0.0888449, 0.701503, -0.252734, 0.633333, 1, -0.663583, -0.09783, 0.700307, -0.244248, 0.666667, 1, -0.667565, -0.109496, 0.698578, -0.233147, 0.7, 1, -0.672049, -0.123305, 0.696273, -0.219885, 0.733333, 1, -0.676757, -0.138705, 0.693369, -0.204938, 0.766667, 1, -0.681434, -0.155133, 0.68988, -0.188807, 0.8, 1, 0.685863, 0.172023, -0.685863, 0.172023, 0.833333, 1, 0.689879, 0.18881, -0.681433, 0.155136, 0.866667, 1, 0.693369, 0.204941, -0.676757, 0.138707, 0.9, 1, 0.696272, 0.219888, -0.672049, 0.123307, 0.933333, 1, 0.698577, 0.233149, -0.667564, 0.109498, 0.966667, 1, 0.700306, 0.24425, -0.663583, 0.0978317, 1, 1, 0.701503, 0.252736, -0.660398, 0.0888463, 1.03333, 1, 0.70221, 0.258161, -0.658295, 0.0830704, 1.06667, 1, 0.702449, 0.260074, -0.657542, 0.0810279)
+tracks/8/type = "position_3d"
+tracks/8/imported = true
+tracks/8/enabled = true
+tracks/8/path = NodePath("Skeleton3D:armRight")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = PackedFloat32Array(0, 1, -0.0014, 0.00691598, -1.03253e-11)
+tracks/9/type = "rotation_3d"
+tracks/9/imported = true
+tracks/9/enabled = true
+tracks/9/path = NodePath("Skeleton3D:armRight")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = PackedFloat32Array(0, 1, 0.702449, -0.260074, -0.657542, -0.0810279, 0.0333333, 1, 0.70221, -0.258162, -0.658295, -0.0830703, 0.0666667, 1, 0.701503, -0.252736, -0.660397, -0.0888463, 0.1, 1, 0.700306, -0.24425, -0.663583, -0.0978316, 0.133333, 1, 0.698577, -0.233149, -0.667564, -0.109498, 0.166667, 1, 0.696272, -0.219888, -0.672049, -0.123307, 0.2, 1, 0.693369, -0.204941, -0.676757, -0.138707, 0.233333, 1, 0.689879, -0.18881, -0.681433, -0.155135, 0.266667, 1, 0.685863, -0.172023, -0.685863, -0.172023, 0.3, 1, -0.681434, 0.155133, 0.689879, 0.188807, 0.333333, 1, -0.676757, 0.138705, 0.693369, 0.204938, 0.366667, 1, -0.672049, 0.123305, 0.696273, 0.219886, 0.4, 1, -0.667565, 0.109496, 0.698577, 0.233147, 0.433333, 1, -0.663583, 0.0978305, 0.700306, 0.244248, 0.466667, 1, -0.660398, 0.0888455, 0.701503, 0.252735, 0.5, 1, -0.658296, 0.0830697, 0.70221, 0.258161, 0.566667, 1, -0.658296, 0.0830697, 0.70221, 0.258161, 0.6, 1, -0.660398, 0.0888456, 0.701503, 0.252735, 0.633333, 1, -0.663583, 0.0978305, 0.700306, 0.244248, 0.666667, 1, -0.667565, 0.109496, 0.698577, 0.233147, 0.7, 1, -0.672049, 0.123305, 0.696273, 0.219885, 0.733333, 1, -0.676757, 0.138705, 0.693369, 0.204938, 0.766667, 1, -0.681434, 0.155133, 0.689879, 0.188807, 0.8, 1, 0.685863, -0.172023, -0.685863, -0.172023, 0.833333, 1, 0.689879, -0.18881, -0.681433, -0.155136, 0.866667, 1, 0.693369, -0.204941, -0.676757, -0.138707, 0.9, 1, 0.696272, -0.219888, -0.672049, -0.123307, 0.933333, 1, 0.698577, -0.233149, -0.667564, -0.109498, 0.966667, 1, 0.700306, -0.24425, -0.663583, -0.0978317, 1, 1, 0.701503, -0.252736, -0.660397, -0.0888464, 1.03333, 1, 0.70221, -0.258162, -0.658295, -0.0830703, 1.06667, 1, 0.702449, -0.260074, -0.657542, -0.0810279)
+tracks/10/type = "position_3d"
+tracks/10/imported = true
+tracks/10/enabled = true
+tracks/10/path = NodePath("Skeleton3D:handSlotRight")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = PackedFloat32Array(0, 1, 1.30385e-10, 0.00550922, 3.53903e-10)
+tracks/11/type = "rotation_3d"
+tracks/11/imported = true
+tracks/11/enabled = true
+tracks/11/path = NodePath("Skeleton3D:handSlotRight")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = PackedFloat32Array(0, 1, 0.36334, -0.36334, 0.606617, 0.606617, 0.0333333, 1, 0.364683, -0.361996, 0.60742, 0.605811, 0.0666667, 1, 0.368471, -0.358183, 0.609676, 0.603514, 0.1, 1, 0.374337, -0.352222, 0.613139, 0.599893, 0.133333, 1, 0.381906, -0.344427, 0.617552, 0.595103, 0.166667, 1, 0.390799, -0.335115, 0.622654, 0.589301, 0.2, 1, 0.400637, -0.324615, 0.628192, 0.582658, 0.233333, 1, 0.411045, -0.313271, 0.633925, 0.575362, 0.3, 1, 0.432127, -0.289515, 0.645121, 0.559702, 0.333333, 1, 0.442118, -0.277873, 0.650221, 0.551844, 0.366667, 1, 0.45132, -0.266918, 0.654794, 0.544344, 0.4, 1, 0.459443, -0.257055, 0.658728, 0.537506, 0.433333, 1, 0.466214, -0.24869, 0.661931, 0.531643, 0.466667, 1, 0.471375, -0.242225, 0.664324, 0.527072, 0.5, 1, 0.474668, -0.238059, 0.665829, 0.524109, 0.566667, 1, 0.474668, -0.238059, 0.665829, 0.524109, 0.6, 1, 0.471375, -0.242225, 0.664324, 0.527072, 0.633333, 1, 0.466214, -0.24869, 0.661931, 0.531643, 0.666667, 1, 0.459443, -0.257055, 0.658728, 0.537506, 0.7, 1, 0.45132, -0.266918, 0.654794, 0.544344, 0.733333, 1, 0.442118, -0.277873, 0.650221, 0.551844, 0.766667, 1, 0.432127, -0.289515, 0.645121, 0.559702, 0.833333, 1, 0.411045, -0.313271, 0.633925, 0.575362, 0.866667, 1, 0.400637, -0.324615, 0.628192, 0.582658, 0.9, 1, 0.390799, -0.335115, 0.622654, 0.589301, 0.933333, 1, 0.381906, -0.344427, 0.617552, 0.595103, 0.966667, 1, 0.374337, -0.352222, 0.613139, 0.599893, 1, 1, 0.368471, -0.358183, 0.609676, 0.603514, 1.03333, 1, 0.364683, -0.361996, 0.60742, 0.605811, 1.06667, 1, 0.36334, -0.36334, 0.606617, 0.606617)
+tracks/12/type = "scale_3d"
+tracks/12/imported = true
+tracks/12/enabled = true
+tracks/12/path = NodePath("Skeleton3D:handSlotRight")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = PackedFloat32Array(0, 1, 1, 1, 1)
+tracks/13/type = "position_3d"
+tracks/13/imported = true
+tracks/13/enabled = true
+tracks/13/path = NodePath("Skeleton3D:handSlotLeft")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = PackedFloat32Array(0, 1, -1.76951e-10, 0.00550922, -8.10251e-10)
+tracks/14/type = "rotation_3d"
+tracks/14/imported = true
+tracks/14/enabled = true
+tracks/14/path = NodePath("Skeleton3D:handSlotLeft")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = PackedFloat32Array(0, 1, -0.559559, 0.650179, -0.440204, -0.265294)
+tracks/15/type = "scale_3d"
+tracks/15/imported = true
+tracks/15/enabled = true
+tracks/15/path = NodePath("Skeleton3D:handSlotLeft")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = PackedFloat32Array(0, 1, 1, 1, 1)
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xfk41"]
 _data = {
-"KayKit Animated Character|Attack(1h)": SubResource("Animation_sg7cv"),
-"KayKit Animated Character|AttackCombo": SubResource("Animation_b3q30"),
-"KayKit Animated Character|AttackSpinning": SubResource("Animation_k2ahn"),
-"KayKit Animated Character|BasePose": SubResource("Animation_nhbl3"),
-"KayKit Animated Character|Block": SubResource("Animation_405nt"),
-"KayKit Animated Character|Cheer": SubResource("Animation_bk7lc"),
-"KayKit Animated Character|Climbing": SubResource("Animation_wfuw6"),
-"KayKit Animated Character|Dance": SubResource("Animation_frtp6"),
-"KayKit Animated Character|DashBack": SubResource("Animation_sdg7p"),
-"KayKit Animated Character|DashFront": SubResource("Animation_rdl3a"),
-"KayKit Animated Character|DashLeft": SubResource("Animation_bmpcq"),
-"KayKit Animated Character|DashRight": SubResource("Animation_am7cf"),
-"KayKit Animated Character|Defeat": SubResource("Animation_20k3s"),
-"KayKit Animated Character|HeavyAttack": SubResource("Animation_5kbjh"),
-"KayKit Animated Character|Hop": SubResource("Animation_030oa"),
-"KayKit Animated Character|Idle": SubResource("Animation_lngb2"),
-"KayKit Animated Character|Interact": SubResource("Animation_e3ihm"),
-"KayKit Animated Character|Jump": SubResource("Animation_mqx48"),
-"KayKit Animated Character|LayingDownIdle": SubResource("Animation_287cg"),
-"KayKit Animated Character|PickUp": SubResource("Animation_h72fl"),
-"KayKit Animated Character|Roll": SubResource("Animation_6runl"),
-"KayKit Animated Character|Run": SubResource("Animation_2rxy3"),
-"KayKit Animated Character|Shoot(1h)": SubResource("Animation_gljjv"),
-"KayKit Animated Character|Shoot(2h)": SubResource("Animation_oirhd"),
-"KayKit Animated Character|Shoot(2h)Bow": SubResource("Animation_03anv"),
-"KayKit Animated Character|Shooting(1h)": SubResource("Animation_5euaj"),
-"KayKit Animated Character|Shooting(2h)": SubResource("Animation_olgjd"),
-"KayKit Animated Character|Throw": SubResource("Animation_f4x8j"),
-"KayKit Animated Character|Walk": SubResource("Animation_uuhxg"),
-"KayKit Animated Character|Wave": SubResource("Animation_7upuf")
+"KayKit Animated Character|Attack(1h)": SubResource("Animation_6vf7q"),
+"KayKit Animated Character|AttackCombo": SubResource("Animation_ly1aq"),
+"KayKit Animated Character|AttackSpinning": SubResource("Animation_qivrr"),
+"KayKit Animated Character|BasePose": SubResource("Animation_7p3hh"),
+"KayKit Animated Character|Block": SubResource("Animation_2xtt0"),
+"KayKit Animated Character|Cheer": SubResource("Animation_kjyra"),
+"KayKit Animated Character|Climbing": SubResource("Animation_7kuir"),
+"KayKit Animated Character|Dance": SubResource("Animation_ycpoo"),
+"KayKit Animated Character|DashBack": SubResource("Animation_2rncl"),
+"KayKit Animated Character|DashFront": SubResource("Animation_qsklv"),
+"KayKit Animated Character|DashLeft": SubResource("Animation_33bsv"),
+"KayKit Animated Character|DashRight": SubResource("Animation_tjb2p"),
+"KayKit Animated Character|Defeat": SubResource("Animation_3sbr6"),
+"KayKit Animated Character|HeavyAttack": SubResource("Animation_djw3u"),
+"KayKit Animated Character|Hop": SubResource("Animation_ij6cd"),
+"KayKit Animated Character|Idle": SubResource("Animation_24llr"),
+"KayKit Animated Character|Interact": SubResource("Animation_nyo2q"),
+"KayKit Animated Character|Jump": SubResource("Animation_12h5u"),
+"KayKit Animated Character|LayingDownIdle": SubResource("Animation_kii5i"),
+"KayKit Animated Character|PickUp": SubResource("Animation_i8cc1"),
+"KayKit Animated Character|Roll": SubResource("Animation_esaee"),
+"KayKit Animated Character|Run": SubResource("Animation_5p06x"),
+"KayKit Animated Character|Shoot(1h)": SubResource("Animation_56o7p"),
+"KayKit Animated Character|Shoot(2h)": SubResource("Animation_p0gyd"),
+"KayKit Animated Character|Shoot(2h)Bow": SubResource("Animation_3u54p"),
+"KayKit Animated Character|Shooting(1h)": SubResource("Animation_ggno2"),
+"KayKit Animated Character|Shooting(2h)": SubResource("Animation_ubn2i"),
+"KayKit Animated Character|Sneak": SubResource("Animation_dh7er"),
+"KayKit Animated Character|Throw": SubResource("Animation_0ldlx"),
+"KayKit Animated Character|Walk": SubResource("Animation_om4jq"),
+"KayKit Animated Character|Wave": SubResource("Animation_j6hux")
 }
 
 [node name="Animations" type="Node3D"]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_xfk41")
+}
 
 [node name="Skeleton3D" type="Skeleton3D" parent="."]
 transform = Transform3D(100, 1.34359e-05, -5.96047e-05, -1.34359e-05, 100, 5.52335e-05, 5.96047e-05, -5.52335e-05, 100, 0, 0, 0)
@@ -3521,79 +3642,74 @@ bones/0/parent = -1
 bones/0/rest = Transform3D(0.996195, 0.0871557, 1.28057e-08, -0.0869434, 0.993768, 0.0697566, 0.00607968, -0.0694912, 0.997564, 0, 0, 0)
 bones/0/enabled = true
 bones/0/position = Vector3(0, 0, 0)
-bones/0/rotation = Quaternion(0.150942, 3.84609e-23, -3.35158e-17, 0.988543)
+bones/0/rotation = Quaternion(-0.0348664, -0.00152229, -0.0435928, 0.99844)
 bones/0/scale = Vector3(1, 1, 1)
 bones/1/name = "Head"
 bones/1/parent = 0
 bones/1/rest = Transform3D(0.996195, -0.0868241, 0.00759611, 0.0871557, 0.992404, -0.0868241, 1.234e-08, 0.0871557, 0.996195, -4.16185e-11, 0.00711598, 8.08647e-12)
 bones/1/enabled = true
 bones/1/position = Vector3(-4.16185e-11, 0.00711598, 8.08647e-12)
-bones/1/rotation = Quaternion(-0.104048, -1.04633e-23, 2.31032e-17, 0.994572)
+bones/1/rotation = Quaternion(0.0435779, 0.00190264, 0.0435779, 0.998097)
 bones/1/scale = Vector3(1, 1, 1)
 bones/2/name = "armLeft"
 bones/2/parent = 0
 bones/2/rest = Transform3D(-2.38419e-07, 0.471936, -0.881633, 0.25882, -0.851592, -0.455855, -0.965927, -0.228184, -0.122146, 0.0014, 0.00691598, -4.84622e-11)
 bones/2/enabled = true
-bones/2/position = Vector3(0.00121547, 0.00670866, -0.00066306)
-bones/2/rotation = Quaternion(0.511783, 0.328002, -0.793235, -0.0356499)
+bones/2/position = Vector3(0.0014, 0.00691598, -4.84622e-11)
+bones/2/rotation = Quaternion(0.702449, 0.260074, -0.657542, 0.0810279)
 bones/2/scale = Vector3(1, 1, 1)
 bones/3/name = "handSlotLeft"
 bones/3/parent = 2
 bones/3/rest = Transform3D(-0.233025, -0.961195, 0.147663, -0.494061, -0.0137721, -0.869319, 0.837618, -0.275527, -0.471679, -1.76951e-10, 0.00550922, -8.10251e-10)
 bones/3/enabled = true
 bones/3/position = Vector3(-1.76951e-10, 0.00550922, -8.10251e-10)
-bones/3/rotation = Quaternion(-0.763455, 0.515471, -0.375294, -0.102867)
+bones/3/rotation = Quaternion(-0.559559, 0.650179, -0.440204, -0.265294)
 bones/3/scale = Vector3(1, 1, 1)
 bones/4/name = "armRight"
 bones/4/parent = 0
 bones/4/rest = Transform3D(0, -0.471936, -0.881633, -0.25882, -0.851592, 0.455855, -0.965927, 0.228184, -0.122146, -0.0014, 0.00691598, -1.03253e-11)
 bones/4/enabled = true
-bones/4/position = Vector3(-0.00121547, 0.0071233, 0.000663059)
-bones/4/rotation = Quaternion(0.511758, -0.477696, -0.713171, -0.0360078)
+bones/4/position = Vector3(-0.0014, 0.00691598, -1.03253e-11)
+bones/4/rotation = Quaternion(0.702449, -0.260074, -0.657542, -0.0810279)
 bones/4/scale = Vector3(1, 1, 1)
 bones/5/name = "handSlotRight"
 bones/5/parent = 4
 bones/5/rest = Transform3D(-1.19209e-07, -1, -3.57628e-07, 0.471936, 2.38419e-07, -0.881633, 0.881633, -2.98023e-07, 0.471936, 1.30385e-10, 0.00550922, 3.53903e-10)
 bones/5/enabled = true
 bones/5/position = Vector3(1.30385e-10, 0.00550922, 3.53903e-10)
-bones/5/rotation = Quaternion(0.576743, -0.317471, 0.4044, 0.634854)
+bones/5/rotation = Quaternion(0.36334, -0.36334, 0.606617, 0.606617)
 bones/5/scale = Vector3(1, 1, 1)
 
 [node name="Head" type="BoneAttachment3D" parent="Skeleton3D"]
-transform = Transform3D(1, 2.09673e-17, -9.9209e-19, -2.09673e-17, 0.995532, -0.0944279, -9.92236e-19, 0.0944279, 0.995532, -4.16185e-11, 0.00679173, 0.00212359)
+transform = Transform3D(1, 8.54638e-09, 4.17817e-10, -6.62226e-09, 0.999848, -0.0174522, -2.61757e-10, 0.0174522, 0.999848, 0.000620198, 0.00707163, -0.000494498)
 bone_name = "Head"
 bone_idx = 1
 
 [node name="Body" type="BoneAttachment3D" parent="Skeleton3D"]
-transform = Transform3D(1, 6.62636e-17, -1.01178e-17, -6.62636e-17, 0.954433, -0.298425, -1.0118e-17, 0.298425, 0.954433, 0, 0, 0)
+transform = Transform3D(0.996195, 0.0871557, 1.25729e-08, -0.0869434, 0.993768, 0.0697566, 0.00607968, -0.0694912, 0.997564, 0, 0, 0)
 bone_name = "Body"
 bone_idx = 0
 
 [node name="ArmLeft" type="BoneAttachment3D" parent="Skeleton3D"]
-transform = Transform3D(-0.473614, 0.279174, -0.835315, 0.609735, -0.580461, -0.539711, -0.635542, -0.764935, 0.104693, 0.00121547, 0.00660084, 0.00136919)
+transform = Transform3D(0.0225574, 0.395919, -0.918008, 0.189827, -0.903234, -0.384883, -0.981559, -0.16558, -0.0955306, 0.00199744, 0.00675116, -0.000472088)
 bone_name = "armLeft"
 bone_idx = 2
 
 [node name="ArmRight" type="BoneAttachment3D" parent="Skeleton3D"]
-transform = Transform3D(-0.473614, -0.540289, -0.695541, -0.189532, -0.708703, 0.679572, -0.860097, 0.453682, 0.233249, -0.00121547, 0.00660084, 0.00275862)
+transform = Transform3D(-0.0225576, -0.544361, -0.838547, -0.324586, -0.789335, 0.521146, -0.945588, 0.283937, -0.158887, -0.000791905, 0.0069946, -0.000489111)
 bone_name = "armRight"
 bone_idx = 4
 
 [node name="HandLeft" type="BoneAttachment3D" parent="Skeleton3D"]
-transform = Transform3D(-0.853943, 0.476418, 0.2093, 0.15949, -0.143232, 0.976753, 0.495322, 0.867473, 0.0463278, 0.0027535, 0.00340295, -0.00284501)
+transform = Transform3D(-0.969805, 0.225802, 0.0921566, 0.0796332, -0.0639754, 0.994769, 0.230517, 0.972071, 0.044062, 0.00417865, 0.00177504, -0.00138431)
 bone_name = "handSlotLeft"
 bone_idx = 3
 
 [node name="HandRight" type="BoneAttachment3D" parent="Skeleton3D"]
-transform = Transform3D(-0.907624, 0.0817401, 0.41175, 0.397225, 0.484453, 0.779434, -0.135763, 0.87099, -0.472171, -0.00419204, 0.00269644, 0.00525805)
+transform = Transform3D(-0.996195, 0.0225577, 0.0841863, 0.0869438, 0.324586, 0.941852, -0.00607957, 0.945588, -0.325312, -0.00379091, 0.00264597, 0.00107516)
 bone_name = "handSlotRight"
 bone_idx = 5
 
 [node name="Camera3D" type="Camera3D" parent="Skeleton3D"]
-transform = Transform3D(-0.01, 2.2627e-10, -8.44439e-10, -8.25515e-11, 0.0093717, 0.00348873, 8.70322e-10, 0.00348873, -0.0093717, -4.16218e-11, 0.0240854, -0.0213483)
+transform = Transform3D(-0.01, 2.26267e-10, -8.44437e-10, -8.25507e-11, 0.0093717, 0.00348873, 8.70319e-10, 0.00348873, -0.0093717, -4.16218e-11, 0.0240854, -0.0213483)
 fov = 90.0
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_klc5h")
-}

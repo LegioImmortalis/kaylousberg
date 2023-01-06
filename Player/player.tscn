@@ -9,18 +9,18 @@
 [ext_resource type="Script" path="res://Player/Character/character_rogue/spawnerScript.gd" id="7_oi02c"]
 [ext_resource type="Script" path="res://Player/Character/character_witch/spawnerScript.gd" id="8_rp2o2"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1luvd"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rtctg"]
 radius = 0.75
 height = 1.5
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ubf6t"]
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_qb21l"]
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_jg6tv")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
-shape = SubResource("CapsuleShape3D_1luvd")
+shape = SubResource("CapsuleShape3D_rtctg")
 
 [node name="CharacterSelector" type="VBoxContainer" parent="."]
 offset_left = 50.0
@@ -30,50 +30,39 @@ offset_bottom = 268.0
 script = ExtResource("3_ooj08")
 
 [node name="Mage" type="Button" parent="CharacterSelector"]
-offset_right = 85.0
-offset_bottom = 31.0
+layout_mode = 2
 text = "Mage
 "
 script = ExtResource("3_c0823")
 
 [node name="Jack" type="Button" parent="CharacterSelector"]
-offset_top = 35.0
-offset_right = 85.0
-offset_bottom = 66.0
+layout_mode = 2
 text = "Jack"
 script = ExtResource("4_qfp66")
 
 [node name="Barbarian" type="Button" parent="CharacterSelector"]
-offset_top = 70.0
-offset_right = 85.0
-offset_bottom = 101.0
+layout_mode = 2
 text = "Barbarian"
 script = ExtResource("5_8x0du")
 
 [node name="Knight" type="Button" parent="CharacterSelector"]
-offset_top = 105.0
-offset_right = 85.0
-offset_bottom = 136.0
+layout_mode = 2
 text = "Knight
 "
 script = ExtResource("6_llyo3")
 
 [node name="Rogue" type="Button" parent="CharacterSelector"]
-offset_top = 140.0
-offset_right = 85.0
-offset_bottom = 171.0
+layout_mode = 2
 text = "Rogue"
 script = ExtResource("7_oi02c")
 
 [node name="Witch" type="Button" parent="CharacterSelector"]
-offset_top = 175.0
-offset_right = 85.0
-offset_bottom = 206.0
+layout_mode = 2
 text = "Witch"
 script = ExtResource("8_rp2o2")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
-replication_config = SubResource("SceneReplicationConfig_ubf6t")
+replication_config = SubResource("SceneReplicationConfig_qb21l")
 
 [node name="CharacterNode" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.998441, 0.0558215, 0, -0.0558215, 0.998441, 0, 0, 0)

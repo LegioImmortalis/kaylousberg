@@ -3,18 +3,18 @@
 [ext_resource type="Script" path="res://Village/Floor.gd" id="1_giqsu"]
 [ext_resource type="Script" path="res://Village/Wall.gd" id="3_pow5h"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_va06l"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2l6wb"]
 points = PackedVector3Array(-50, -0.5, -50, -50, 0.5, -50, 50, -0.5, -50, -50, -0.5, 50, -50, 0.5, 50, 50, 0.5, -50, 50, -0.5, 50, 50, 0.5, 50)
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_rkvrg"]
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_v7lq7"]
 
 [node name="Village" type="StaticBody3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("ConvexPolygonShape3D_va06l")
+shape = SubResource("ConvexPolygonShape3D_2l6wb")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
-replication_config = SubResource("SceneReplicationConfig_rkvrg")
+replication_config = SubResource("SceneReplicationConfig_v7lq7")
 
 [node name="Floor" type="Node3D" parent="."]
 script = ExtResource("1_giqsu")

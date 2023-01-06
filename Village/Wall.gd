@@ -5,7 +5,7 @@ var	corner = preload("res://Village/wall_corner.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var segmentPosition = Vector3(-10,0,-20)
+	var segmentPosition = Vector3(-20,0,-15)
 	segmentPosition = wallSegment(5,"x",segmentPosition)
 	print(segmentPosition)
 	wallCorner(0,segmentPosition)
