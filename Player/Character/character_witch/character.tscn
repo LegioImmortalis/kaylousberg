@@ -402,6 +402,7 @@ bones/4/rotation = Quaternion(0.685863, -0.172023, -0.685863, -0.172023)
 
 [node name="Head" parent="Animations/Skeleton3D" index="0"]
 transform = Transform3D(1, -2.62522e-23, -8.66273e-31, 2.62522e-23, 1, 1.62921e-07, -3.41074e-30, -1.62921e-07, 1, -4.16185e-11, 0.00711598, -1.15125e-09)
+visible = false
 
 [node name="character_witchHead" type="MeshInstance3D" parent="Animations/Skeleton3D/Head" index="0"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15256e-09, -5.96047e-09, 7.15256e-09, 0.01, -4.56844e-10, -7.88704e-05, 3.52272e-09)
@@ -418,6 +419,7 @@ transform = Transform3D(1, -5.31716e-24, -8.66274e-31, 5.31716e-24, 1, 1.62921e-
 
 [node name="character_witch" type="MeshInstance3D" parent="Animations/Skeleton3D/Body" index="0"]
 transform = Transform3D(0.01, -1.34359e-09, 5.96047e-09, 1.34359e-09, 0.01, -7.15256e-09, -5.96047e-09, 7.15256e-09, 0.01, 0, 0, 0)
+visible = false
 mesh = SubResource("ArrayMesh_sl1fe")
 skeleton = NodePath("")
 
@@ -426,6 +428,7 @@ transform = Transform3D(8.66274e-31, 0.471937, -0.881632, -1.62921e-07, -0.88163
 
 [node name="character_witchArmLeft" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmLeft" index="0"]
 transform = Transform3D(5.96047e-09, -7.15256e-09, -0.01, 0.00471937, -0.00881633, 9.11889e-09, -0.00881633, -0.00471937, -1.87939e-09, -3.01922e-09, 0.000813968, -0.000290719)
+visible = false
 mesh = SubResource("ArrayMesh_oralk")
 skeleton = NodePath("")
 
@@ -434,6 +437,7 @@ transform = Transform3D(8.66274e-31, -0.471937, -0.881632, -1.62921e-07, -0.8816
 
 [node name="character_witchArmRight" type="MeshInstance3D" parent="Animations/Skeleton3D/ArmRight" index="0"]
 transform = Transform3D(5.96047e-09, -7.15256e-09, -0.01, -0.00471937, -0.00881632, 3.49296e-09, -0.00881632, 0.00471937, -8.6305e-09, -5.40317e-09, 0.000813974, 0.00029073)
+visible = false
 mesh = SubResource("ArrayMesh_nmtfx")
 skeleton = NodePath("")
 

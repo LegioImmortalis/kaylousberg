@@ -22,11 +22,140 @@ script = ExtResource("1_jg6tv")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
 shape = SubResource("CapsuleShape3D_xa7vi")
 
+[node name="CharacterSelector" type="VBoxContainer" parent="CollisionShape3D"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -85.0
+offset_bottom = 206.0
+grow_horizontal = 0
+script = ExtResource("3_ooj08")
+
+[node name="Str" type="Button" parent="CollisionShape3D/CharacterSelector"]
+layout_mode = 2
+text = "Str
+"
+script = ExtResource("3_c0823")
+
+[node name="-" type="Button" parent="CollisionShape3D/CharacterSelector/Str"]
+layout_mode = 0
+offset_right = 18.0
+offset_bottom = 31.0
+text = "-"
+
+[node name="+" type="Button" parent="CollisionShape3D/CharacterSelector/Str"]
+layout_mode = 1
+offset_left = 67.0
+offset_right = 85.0
+offset_bottom = 31.0
+text = "+"
+alignment = 2
+icon_alignment = 2
+
+[node name="Agi" type="Button" parent="CollisionShape3D/CharacterSelector"]
+layout_mode = 2
+text = "Agi"
+script = ExtResource("4_qfp66")
+
+[node name="-" type="Button" parent="CollisionShape3D/CharacterSelector/Agi"]
+layout_mode = 1
+offset_right = 18.0
+offset_bottom = 31.0
+text = "-"
+
+[node name="+" type="Button" parent="CollisionShape3D/CharacterSelector/Agi"]
+layout_mode = 1
+offset_left = 67.0
+offset_right = 85.0
+offset_bottom = 31.0
+text = "+"
+alignment = 2
+icon_alignment = 2
+
+[node name="Vit" type="Button" parent="CollisionShape3D/CharacterSelector"]
+layout_mode = 2
+text = "Vit"
+script = ExtResource("5_8x0du")
+
+[node name="-" type="Button" parent="CollisionShape3D/CharacterSelector/Vit"]
+layout_mode = 1
+offset_right = 18.0
+offset_bottom = 31.0
+text = "-"
+
+[node name="+" type="Button" parent="CollisionShape3D/CharacterSelector/Vit"]
+layout_mode = 1
+offset_left = 67.0
+offset_right = 85.0
+offset_bottom = 31.0
+text = "+"
+alignment = 2
+icon_alignment = 2
+
+[node name="Int" type="Button" parent="CollisionShape3D/CharacterSelector"]
+layout_mode = 2
+text = "Int
+"
+script = ExtResource("6_llyo3")
+
+[node name="-" type="Button" parent="CollisionShape3D/CharacterSelector/Int"]
+layout_mode = 1
+offset_right = 18.0
+offset_bottom = 31.0
+text = "-"
+
+[node name="+" type="Button" parent="CollisionShape3D/CharacterSelector/Int"]
+layout_mode = 1
+offset_left = 67.0
+offset_right = 85.0
+offset_bottom = 31.0
+text = "+"
+alignment = 2
+icon_alignment = 2
+
+[node name="Dex" type="Button" parent="CollisionShape3D/CharacterSelector"]
+layout_mode = 2
+text = "Dex"
+script = ExtResource("7_oi02c")
+
+[node name="-" type="Button" parent="CollisionShape3D/CharacterSelector/Dex"]
+layout_mode = 1
+offset_right = 18.0
+offset_bottom = 31.0
+text = "-"
+
+[node name="+" type="Button" parent="CollisionShape3D/CharacterSelector/Dex"]
+layout_mode = 1
+offset_left = 67.0
+offset_right = 85.0
+offset_bottom = 31.0
+text = "+"
+alignment = 2
+icon_alignment = 2
+
+[node name="Luk" type="Button" parent="CollisionShape3D/CharacterSelector"]
+layout_mode = 2
+text = "Luk"
+script = ExtResource("8_rp2o2")
+
+[node name="-" type="Button" parent="CollisionShape3D/CharacterSelector/Luk"]
+layout_mode = 1
+offset_right = 18.0
+offset_bottom = 31.0
+text = "-"
+
+[node name="+" type="Button" parent="CollisionShape3D/CharacterSelector/Luk"]
+layout_mode = 1
+offset_left = 67.0
+offset_right = 85.0
+offset_bottom = 31.0
+text = "+"
+alignment = 2
+icon_alignment = 2
+
 [node name="CharacterSelector" type="VBoxContainer" parent="."]
-offset_left = 50.0
-offset_top = 47.0
-offset_right = 135.0
-offset_bottom = 268.0
+offset_right = 85.0
+offset_bottom = 206.0
 script = ExtResource("3_ooj08")
 
 [node name="Mage" type="Button" parent="CharacterSelector"]
@@ -67,6 +196,17 @@ replication_config = SubResource("SceneReplicationConfig_21mbe")
 [node name="CharacterNode" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.998441, 0.0558215, 0, -0.0558215, 0.998441, 0, 0, 0)
 
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
+autostart = true
+
+[connection signal="pressed" from="CollisionShape3D/CharacterSelector/Str" to="CollisionShape3D/CharacterSelector/Str" method="_on_pressed"]
+[connection signal="pressed" from="CollisionShape3D/CharacterSelector/Agi" to="CollisionShape3D/CharacterSelector/Agi" method="_on_pressed"]
+[connection signal="pressed" from="CollisionShape3D/CharacterSelector/Vit" to="CollisionShape3D/CharacterSelector/Vit" method="_on_pressed"]
+[connection signal="pressed" from="CollisionShape3D/CharacterSelector/Int" to="CollisionShape3D/CharacterSelector/Int" method="_on_pressed"]
+[connection signal="pressed" from="CollisionShape3D/CharacterSelector/Dex" to="CollisionShape3D/CharacterSelector/Dex" method="_on_pressed"]
+[connection signal="pressed" from="CollisionShape3D/CharacterSelector/Luk" to="CollisionShape3D/CharacterSelector/Luk" method="_on_pressed"]
 [connection signal="pressed" from="CharacterSelector/Mage" to="CharacterSelector/Mage" method="_on_pressed"]
 [connection signal="pressed" from="CharacterSelector/Jack" to="CharacterSelector/Jack" method="_on_pressed"]
 [connection signal="pressed" from="CharacterSelector/Barbarian" to="CharacterSelector/Barbarian" method="_on_pressed"]

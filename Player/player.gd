@@ -8,6 +8,8 @@ const DASH = 10
 var speed = BASESPEED
 var character
 var input_dir = Vector3.ZERO
+var animationLength = 0
+var dashTimer = Timer.new()# $Timer
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -55,7 +57,7 @@ func _physics_process(delta):
 			animation_player.play("KayKit Animated Character|Wave")
 		
 		var characterDirection = Vector3()
-		
+		characterDirection = Vector3(0,0,0)
 		if rotation.y == 0:
 			characterDirection = Vector3(1, 0, 0)
 		if rotation.y == 90:
@@ -71,9 +73,13 @@ func _physics_process(delta):
 		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 
 		var animation
-		animation =_handle_movement(animation,input_dir,direction)
+		#dashTimer.autostart=true
+		
+		animation = _handle_movement(animation,input_dir,direction)
 		if animation:
-			await(animation_player.play(animation))
+			animation_player.play(animation)
+			#animationLength = animation_player.get_current_animation_length()
+
 		
 		velocity *= Vector3(0,1,0)
 		
@@ -83,13 +89,19 @@ func _physics_process(delta):
 		else:
 			velocity.x = move_toward(velocity.x, 0, speed)
 			velocity.z = move_toward(velocity.z, 0, speed)
-			
-		#print(velocity)	
-		rotate_y(-input_mouse.x/10000)
-		animations.get_node("Skeleton3D/Camera3D").rotate_x(input_mouse.y/10000)
-		#print(animations.get_node("Skeleton3D/Camera3D").project_ray_origin(self))
-		#print(direction)	
-		move_and_slide()
+				
+		#print(velocity)
+		if Input.is_key_pressed(KEY_ESCAPE):
+			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+			Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
+		else:
+			Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED_HIDDEN)
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+			rotate_y(-input_mouse.x/10000)
+			animations.get_node("Skeleton3D/Camera3D").rotate_x(input_mouse.y/10000)
+			#print(animations.get_node("Skeleton3D/Camera3D").project_ray_origin(self))
+			#print(direction)	
+			move_and_slide()
 	
 func _add_character(source):
 	character = source.instantiate()
@@ -111,51 +123,51 @@ const RAY_LENGTH = 1000.0
 #			var to = from + camera3d.project_ray_normal(event.position) * RAY_LENGTH
 #			print(to)
 
-func dash(animation_player):
-	speed = BASESPEED*DASH
-	animation_player.play("KayKit Animated Character|DashFront")
-	await(get_tree().create_timer(1.0))
+#func dash(animation_player):
+#	speed = BASESPEED*DASH
+#	animation_player.play("KayKit Animated Character|DashFront")
+#	await(get_tree().create_timer(0.1))
 	#animation_player.play("KayKit Animated Character|DashBack")
 	#animation_player.play("KayKit Animated Character|DashLeft")
 	#animation_player.play("KayKit Animated Character|DashRight")
 	
 func _handle_movement(animation,input_dir,direction):
-	if is_on_floor():
+	if is_on_floor() and not $Timer.time_left:
 		if input_dir == Vector2.ZERO:
-			animation = "KayKit Animated Character|Idle"
+			return "KayKit Animated Character|Idle"
 			if Input.is_key_pressed(KEY_SPACE):
-				velocity.y = JUMP_VELOCITY
-				animation ="KayKit Animated Character|Jump"
 				self.translate(direction*BASESPEED*WALK)
+				velocity.y = JUMP_VELOCITY
+				return "KayKit Animated Character|Jump"
 		if not input_dir == Vector2.ZERO:
-			speed = BASESPEED
-			animation = "KayKit Animated Character|Walk"
-			if Input.is_key_pressed(KEY_SHIFT):
-				speed = BASESPEED*RUN
-				animation = "KayKit Animated Character|Run"
-			if Input.is_key_pressed(KEY_CTRL):
-				speed = BASESPEED*WALK
-				animation = "KayKit Animated Character|Sneak"
 			if Input.is_action_just_pressed("dash"):
 				speed = BASESPEED*DASH
-				animation = "KayKit Animated Character|DashFront"
+				#$Timer.wait_time(animationLength)
+				$Timer.start(0.7)
+				return "KayKit Animated Character|DashFront"
+			if Input.is_key_pressed(KEY_SHIFT):
+				speed = BASESPEED*RUN
+				return "KayKit Animated Character|Run"
+			if Input.is_key_pressed(KEY_CTRL):
+				speed = BASESPEED*WALK
 			if Input.is_key_pressed(KEY_SPACE):
 				velocity.y = JUMP_VELOCITY
-				animation = "KayKit Animated Character|Run"
-	if not is_on_floor():	
+				return "KayKit Animated Character|Run"
+			speed = BASESPEED
+			return "KayKit Animated Character|Walk"
+	if not is_on_floor() and not $Timer.time_left:	
 		if Input.is_action_just_pressed("dash"):
-			animation = "KayKit Animated Character|Roll"
+			return "KayKit Animated Character|Roll"
 		if is_on_wall():
+			if Input.is_action_just_pressed("dash"):
+				self.translate(position+velocity*Vector3(0.001,0,0.001))
+				velocity.y = JUMP_VELOCITY
+				speed = -BASESPEED*RUN
+				return "KayKit Animated Character|Roll"
+			if  Input.is_action_just_pressed("ui_accept"):
+				velocity.y = JUMP_VELOCITY
+				return "KayKit Animated Character|Hop"
 			if Input.is_key_pressed(KEY_SPACE):
 				if velocity.y <= 0:
 					velocity.y = 0
-					animation = "KayKit Animated Character|Climbing"
-			if  Input.is_action_just_pressed("ui_accept"):
-				animation = "KayKit Animated Character|Hop"
-				velocity.y = JUMP_VELOCITY
-			if Input.is_action_just_pressed("dash"):
-				#self.translate(position+velocity*Vector3(0.001,0,0.001))
-				velocity.y = JUMP_VELOCITY
-				animation = "KayKit Animated Character|Roll"
-				speed = -BASESPEED*RUN
-	return animation
+					return "KayKit Animated Character|Climbing"
